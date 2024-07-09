@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".jbospots">
+
+        <TextView
+            android:id="@+id/test"
+            android:layout_width="600dp"
+            android:layout_height="wrap_content"
+            android:justificationMode="inter_word"
+            android:text="      Bohol's claim to fame is unique geological formations of over 1000 cone-shaped hills that change in color depending on the season – the Chocolate Hills. You can view the hills from the Chocolate Hills Complex where there’s a viewing deck with a stunning 360° view of the cone-shaped hills. These giant mounds of chocolate-colored earth on the dry season that turn green during the wet season are known across the world for their enchanting beauty. The hills are spread out on a 50-square kilometer land and vary in size."
+            android:textSize="10sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.502"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="122dp"
+            android:layout_height="80dp"
+            android:layout_marginStart="65dp"
+            android:layout_marginTop="48dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/chocolatehills" />
+
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="104dp"
+            android:layout_height="15dp"
+            android:layout_marginStart="32dp"
+            android:layout_marginEnd="408dp"
+            android:layout_marginBottom="25dp"
+            android:text="Chocolate Hills"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/test"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toEndOf="@+id/imageView2"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="1.0" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="122dp"
+            android:layout_height="80dp"
+            android:layout_marginStart="65dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginEnd="7dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/test"
+            app:srcCompat="@drawable/hinagdanan" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="32dp"
+            android:layout_marginBottom="25dp"
+            android:text="Hinagdanan Cave"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/test1"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toEndOf="@+id/imageView3"
+            app:layout_constraintTop_toBottomOf="@+id/test"
+            app:layout_constraintVertical_bias="1.0" />
+
+        <TextView
+            android:id="@+id/test1"
+            android:layout_width="600dp"
+            android:layout_height="wrap_content"
+            android:justificationMode="inter_word"
+            android:text="     Hinagdanan Cave excursions are a must-add in any Bohol itinerary. Not only because of its beauty, but it's also easily accessible from the Chocolate Hills and waterfall destinations in the province."
+            android:textSize="10sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView3" />
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="122dp"
+            android:layout_height="80dp"
+            android:layout_marginStart="65dp"
+            android:layout_marginTop="12dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/test1"
+            app:srcCompat="@drawable/tarsiers" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="32dp"
+            android:layout_marginEnd="63dp"
+            android:layout_marginBottom="25dp"
+            android:text="Spend Time with the Tarsiers"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/test2"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toEndOf="@+id/imageView4"
+            app:layout_constraintTop_toBottomOf="@+id/test1"
+            app:layout_constraintVertical_bias="1.0" />
+
+        <TextView
+            android:id="@+id/test2"
+            android:layout_width="600dp"
+            android:layout_height="360dp"
+            android:layout_marginTop="8dp"
+            android:justificationMode="inter_word"
+            android:text="      Like the Chocolate Hills, the tarsiers and their big eyes are synonymous to Bohol as well. These nocturnal creatures are considered to be the smallest primate in the world.
+They grow to be just 15 centimeters long at most, and they're just so cute! Tarsiers can also be found in other Philippine destinations like Samar, Leyte, and parts of Mindanao. But Bohol is known for its tarsier sanctuary tours that help preserve and raise awareness about these species.
+"
+            android:textSize="10sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.546"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView4" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

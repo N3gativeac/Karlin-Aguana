@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".jtagmalls">
+
+        <TextView
+            android:id="@+id/test"
+            android:layout_width="600dp"
+            android:layout_height="wrap_content"
+            android:justificationMode="inter_word"
+            android:text="       “This is conveniently located along the highway near lots of specialty restos and bars, hotels and other novelty stores.Though traffic can be very punishing during peak season, but it's all worth the drive.”"
+            android:textSize="10sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.502"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+
+        //------------------------------------------------------------------------------------------------------------------------
+
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="122dp"
+            android:layout_height="80dp"
+            android:layout_marginStart="65dp"
+            android:layout_marginTop="36dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/ayalamallsserin" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="32dp"
+            android:layout_marginBottom="25dp"
+            android:text="Ayala Malls Serin"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/test"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toEndOf="@+id/imageView2"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="1.0" />
+
+        <TextView
+            android:id="@+id/test1"
+            android:layout_width="600dp"
+            android:layout_height="wrap_content"
+            android:justificationMode="inter_word"
+            android:text="      We stayed during a weekday for a quick tour. The place was exactly what everyone said: good view! That basically is what you're paying for. There's a mini mall close by with a Starbucks (not the one with the good view but a normal one), Nuat Thai massage, supermarket, pizza…"
+            android:textSize="10sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.507"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView3" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="122dp"
+            android:layout_height="80dp"
+            android:layout_marginStart="65dp"
+            android:layout_marginTop="12dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/test"
+            app:srcCompat="@drawable/summit" />
+
+        //------------------------------------------------------------------------------------------------------------------------
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="32dp"
+            android:layout_marginBottom="25dp"
+            android:text="Summit Ridge Promenade"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/test1"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toEndOf="@+id/imageView3"
+            app:layout_constraintTop_toBottomOf="@+id/test"
+            app:layout_constraintVertical_bias="1.0" />
+
+        <TextView
+            android:id="@+id/test2"
+            android:layout_width="600dp"
+            android:layout_height="360dp"
+            android:justificationMode="inter_word"
+            android:text="      Tagaytay City, Cavite is widely known as a go-to location for weekend road trips and getaways for both locals and vacationers. The growing market for leisure-oriented developments in the area has paved the way for the opening of the city’s very first mall called Fora Mall, located along Emilio Aguinaldo Highway. Fora Mall is a Filinvest lifemall and part of the Fora Tagaytay mixed-use development."
+            android:textSize="10sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.491"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView4" />
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="122dp"
+            android:layout_height="80dp"
+            android:layout_marginStart="65dp"
+            android:layout_marginTop="12dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/test1"
+            app:srcCompat="@drawable/foramall" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="32dp"
+            android:layout_marginBottom="25dp"
+            android:text="Fora Mall Tagaytay"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/test2"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toEndOf="@+id/imageView4"
+            app:layout_constraintTop_toBottomOf="@+id/test1"
+            app:layout_constraintVertical_bias="1.0" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

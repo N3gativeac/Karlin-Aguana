@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/drawer_layout"
+    android:background="@drawable/sukelcotranslogo"
+    tools:context=".AboutUs">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <androidx.core.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fillViewport="true">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:visibility="visible">
+
+                <include layout="@layout/main_toolbar" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="68dp"
+                    android:orientation="horizontal"
+                    android:paddingLeft="10dp"
+                    android:paddingTop="10dp">
+
+                    <ImageView
+                        android:id="@+id/imageView"
+                        android:layout_width="14dp"
+                        android:layout_height="51dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/aboutusicon" />
+
+                    <TextView
+                        android:id="@+id/textView14"
+                        android:layout_width="94dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="About"
+                        android:textColor="#000000"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/textView15"
+                        android:layout_width="196dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="SUKELCO (Sultan Kudarat Electric Cooperative, Inc.)" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="768dp"
+                    android:orientation="horizontal"
+                    android:paddingLeft="10dp">
+
+                    <ImageView
+                        android:id="@+id/imageView2"
+                        android:layout_width="13dp"
+                        android:layout_height="49dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/aboutusicon" />
+
+                    <TextView
+                        android:id="@+id/textView16"
+                        android:layout_width="93dp"
+                        android:layout_height="63dp"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="Additional information"
+                        android:textColor="#000000"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/textView17"
+                        android:layout_width="197dp"
+                        android:layout_height="746dp"
+                        android:layout_weight="1"
+                        android:text="SULTAN KUDARAT ELECTRIC COOPERATIVE, INC. (SUKELCO) was organized pursuant to Presidential Decree No. 269, as amended to implement the government's national policy of total electrification of the country on an area coverage basis. It is a non-stock, non-profit oriented entity, providing adequate and reliable electric service to its consumers.
+        SUKELCO was registered on November 4, 1975 with the National Electrification Administration (NEA), a government owned and controlled corporation which provides financial and technical assistance to all electric cooperatives.
+        On December 12, 1977, the cooperative took over the distribution system of the now defunct Mindanao Progress Electric Company (MINPELCO) at Tacurong Poblacion with 910 consumers. On the same year, SUKELCO also started buying the excess power of SPGC – NGA at Tacurong to augment its power supply. On October 1, 1978, the phase 1 construction of backbone line from Tacurong to Isulan was undertaken by 512 Engineering Construction Batallion.
+        On June 18, 1979, Isulan became the first municipality energized. SUKELCO's operation took off when its first 5MVA substation at Kalandagan, Tacurong was connected and energized by the National Power Corporation on September 29, 1980. See less" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="49dp"
+                    android:gravity="center|center_horizontal"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textView20"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="ADDITIONAL CONTACT INFO"
+                        android:textColor="#000000"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="42dp"
+                    android:orientation="horizontal"
+                    android:paddingLeft="70dp">
+
+                    <ImageView
+                        android:id="@+id/imageView3"
+                        android:layout_width="52dp"
+                        android:layout_height="37dp"
+                        android:layout_gravity="right"
+                        android:layout_weight="1"
+                        android:background="@drawable/webicon" />
+
+                    <TextView
+                        android:id="@+id/textView19"
+                        android:layout_width="298dp"
+                        android:layout_height="37dp"
+                        android:layout_weight="1"
+                        android:gravity="left|center_vertical"
+                        android:text="http://www.sukelco.com.ph/"
+                        android:textColor="#000000"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="42dp"
+                    android:orientation="horizontal"
+                    android:paddingLeft="70dp">
+
+                    <ImageView
+                        android:id="@+id/imageView4"
+                        android:layout_width="41dp"
+                        android:layout_height="37dp"
+                        android:layout_gravity="right"
+                        android:layout_weight="1"
+                        android:background="@drawable/telephoneicon" />
+
+                    <TextView
+                        android:id="@+id/textView21"
+                        android:layout_width="283dp"
+                        android:layout_height="37dp"
+                        android:layout_weight="1"
+                        android:gravity="left|center_vertical"
+                        android:text="(064) 200 4050"
+                        android:textColor="#000000"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="79dp"
+                    android:orientation="horizontal"
+                    android:paddingLeft="70dp">
+
+                    <ImageView
+                        android:id="@+id/imageView5"
+                        android:layout_width="46dp"
+                        android:layout_height="37dp"
+                        android:layout_gravity="right"
+                        android:layout_weight="1"
+                        android:background="@drawable/email" />
+
+                    <TextView
+                        android:id="@+id/textView22"
+                        android:layout_width="284dp"
+                        android:layout_height="38dp"
+                        android:layout_weight="1"
+                        android:gravity="left|center_vertical"
+                        android:text="sukelco_1975@sukelco.com.ph"
+                        android:textColor="#000000"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+            </LinearLayout>
+        </androidx.core.widget.NestedScrollView>
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="300dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:background="@android:color/white">
+
+        <include layout="@layout/main_nav_drawer" />
+
+
+    </RelativeLayout>
+
+
+</androidx.drawerlayout.widget.DrawerLayout>

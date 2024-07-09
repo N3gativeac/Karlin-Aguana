@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".Javatagaytay">
+
+
+        <RadioGroup
+            android:id="@+id/radioGroup"
+            android:layout_width="128dp"
+            android:layout_height="139dp"
+            android:layout_marginTop="52dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.78"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <RadioButton
+                android:id="@+id/Tag_hotel"
+                android:layout_width="wrap_content"
+                android:layout_height="34dp"
+                android:layout_marginLeft="2dp"
+                android:text="@string/Tag_hotel"
+                android:textSize="14sp" />
+
+            <RadioButton
+                android:id="@+id/Tag_spots"
+                android:layout_width="wrap_content"
+                android:layout_height="34dp"
+                android:layout_marginLeft="2dp"
+                android:text="@string/Tag_spots"
+                android:textSize="12sp" />
+
+            <RadioButton
+                android:id="@+id/Tag_malls"
+                android:layout_width="wrap_content"
+                android:layout_height="33dp"
+                android:layout_marginLeft="2dp"
+                android:text="@string/Tag_malls"
+                android:textSize="12sp" />
+
+            <RadioButton
+                android:id="@+id/Tag_restaurants"
+                android:layout_width="wrap_content"
+                android:layout_height="37dp"
+                android:layout_marginLeft="2dp"
+                android:text="@string/Tag_restaurants"
+                android:textSize="12sp" />
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/btn"
+            android:layout_width="84dp"
+            android:layout_height="32dp"
+            android:layout_marginTop="12dp"
+            android:text="@string/btn"
+            android:textSize="12sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.74"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/radioGroup" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="191dp"
+            android:layout_height="181dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="52dp"
+            app:layout_constraintEnd_toStartOf="@+id/radioGroup"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/tagaytay" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="340dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:justificationMode="inter_word"
+            android:text="      Tagaytay City has a total land area of 66.1 km2 (26 sq mi) which represents about 4.37% of the total area of the Province of Batangas. It lies within 120° 56′ longitude and 14° 6′ latitude and overlooks Manila Bay to the North, Taal Volcano and Lake to the south and Laguna de Bay to the east.
+
+The southern and eastern portions of Tagaytay City are covered by hills and mountains which is generally forests and open grasslands. The city lies along Tagaytay Ridge, a ridge stretching about 32 kilometres (20 mi) from Mount Batulao in the west to Mount Sungay (now People’s Park in the Sky) in the east with elevations averaging about 610 metres (2,000 ft) above sea level.Mount Sungay, in Tagaytay, is the highest point of the province of Cavite at 709 metres (2,326 ft)."
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btn" />" to be a total fabrication.[3][4][5][6] In 1437, the short-lived dynasty of Datu Kalantiaw ended when Datu Kalantiaw III was killed in battle with the tribes of Datu Manduyog, the legitimate successor of Datu Dinagandan. When Datu Manduyog became the new chieftain, he moved the capital to Bakan (now known as Banga)."
+        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        tools:layout_editor_absoluteX="78dp" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="327dp"
+            android:layout_height="671dp"
+            android:justificationMode="inter_word"
+            android:text="      The city’s total population is 61,623. Its night time population is the same with its daytime population since the city does not have any university or industrial park that encourages a different situation. Most of the residents of Tagaytay (93.58%) speak the Tagalog language. The second most used dialect in Tagaytay is Bicolano, which is spoken by 1.52% of the residents."
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/textView" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/AndroidStudioProjects/ServicePower/app/src/main/res/layout/activity_about_us.xml" value="0.20416666666666666" />
+        <entry key="..\:/AndroidStudioProjects/ServicePower/app/src/main/res/layout/activity_dashboard.xml" value="0.20416666666666666" />
+        <entry key="..\:/AndroidStudioProjects/ServicePower/app/src/main/res/layout/activity_login.xml" value="0.18" />
+        <entry key="..\:/AndroidStudioProjects/ServicePower/app/src/main/res/layout/activity_main.xml" value="0.20416666666666666" />
+        <entry key="..\:/AndroidStudioProjects/ServicePower/app/src/main/res/layout/activity_registration_account_summary.xml" value="0.2066974595842956" />
+        <entry key="..\:/AndroidStudioProjects/ServicePower/app/src/main/res/layout/activity_registration_address_info.xml" value="0.25" />
+        <entry key="..\:/AndroidStudioProjects/ServicePower/app/src/main/res/layout/activity_registration_personal_info.xml" value="0.2" />
+        <entry key="..\:/AndroidStudioProjects/ServicePower/app/src/main/res/layout/activity_registration_sukelco_account_info.xml" value="0.20416666666666666" />
+        <entry key="..\:/AndroidStudioProjects/ServicePower/app/src/main/res/layout/main_nav_drawer.xml" value="0.20416666666666666" />
+        <entry key="..\:/AndroidStudioProjects/ServicePower/app/src/main/res/layout/main_toolbar.xml" value="0.20416666666666666" />
+        <entry key="..\:/AndroidStudioProjects/ServicePowerStaffApp/app/src/main/res/drawable/ic_logout_large.xml" value="0.2169230769230769" />
+        <entry key="..\:/AndroidStudioProjects/ServicePowerStaffApp/app/src/main/res/drawable/ic_personal_info_large.xml" value="0.2169230769230769" />
+        <entry key="..\:/AndroidStudioProjects/ServicePowerStaffApp/app/src/main/res/layout/activity_about_us.xml" value="0.20416666666666666" />
+        <entry key="..\:/AndroidStudioProjects/ServicePowerStaffApp/app/src/main/res/layout/activity_announcement_webview.xml" value="0.20416666666666666" />
+        <entry key="..\:/AndroidStudioProjects/ServicePowerStaffApp/app/src/main/res/layout/activity_dashboard.xml" value="0.22" />
+        <entry key="..\:/AndroidStudioProjects/ServicePowerStaffApp/app/src/main/res/layout/activity_login.xml" value="0.22" />
+        <entry key="..\:/AndroidStudioProjects/ServicePowerStaffApp/app/src/main/res/layout/activity_main.xml" value="0.18" />
+        <entry key="..\:/AndroidStudioProjects/ServicePowerStaffApp/app/src/main/res/layout/activity_metering_update.xml" value="0.22" />
+        <entry key="..\:/AndroidStudioProjects/ServicePowerStaffApp/app/src/main/res/layout/activity_power_advisory_webview.xml" value="0.1" />
+        <entry key="..\:/AndroidStudioProjects/ServicePowerStaffApp/app/src/main/res/layout/main_nav_drawer.xml" value="0.22" />
+        <entry key="..\:/ServicePowerStaffApp12-21-2021/app/src/main/res/layout/activity_main.xml" value="0.371875" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_X" project-jdk-name="16" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

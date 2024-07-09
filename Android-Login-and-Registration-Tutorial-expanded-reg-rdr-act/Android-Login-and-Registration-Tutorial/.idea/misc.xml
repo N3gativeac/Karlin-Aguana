@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/AndroidStudioProjects/Git-Sync/Android-Login-and-Registration-Tutorial-extras/Android-Login-and-Registration-Tutorial/app/src/main/res/layout/activity_customer_main.xml" value="0.25" />
+        <entry key="..\:/AndroidStudioProjects/Git-Sync/Android-Login-and-Registration-Tutorial-extras/Android-Login-and-Registration-Tutorial/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/AndroidStudioProjects/Git-Sync/Android-Login-and-Registration-Tutorial-extras/Android-Login-and-Registration-Tutorial/app/src/main/res/layout/activity_profile.xml" value="0.1" />
+        <entry key="..\:/AndroidStudioProjects/Git-Sync/Android-Login-and-Registration-Tutorial-extras/Android-Login-and-Registration-Tutorial/app/src/main/res/layout/activity_settings_change_password_and_username.xml" value="0.1" />
+        <entry key="..\:/AndroidStudioProjects/Git-Sync/anotherLoginAgain/Android-Login-and-Registration-Tutorial/app/src/main/res/layout/activity_login.xml" value="0.1" />
+        <entry key="..\:/AndroidStudioProjects/Git-Sync/anotherLoginAgain/Android-Login-and-Registration-Tutorial/app/src/main/res/layout/activity_main.xml" value="0.20416666666666666" />
+        <entry key="..\:/AndroidStudioProjects/Git-Sync/anotherLoginAgain/Android-Login-and-Registration-Tutorial/app/src/main/res/layout/activity_profile.xml" value="0.20416666666666666" />
+        <entry key="..\:/ThesesSystem/android-experimental-login-register-main/Android-Login-and-Registration-Tutorial/app/src/main/res/layout/activity_announcement.xml" value="0.25416666666666665" />
+        <entry key="..\:/ThesesSystem/android-experimental-login-register-main/Android-Login-and-Registration-Tutorial/app/src/main/res/layout/activity_customer_main.xml" value="0.25416666666666665" />
+        <entry key="..\:/ThesesSystem/android-experimental-login-register-main/Android-Login-and-Registration-Tutorial/app/src/main/res/layout/activity_history.xml" value="0.25416666666666665" />
+        <entry key="..\:/ThesesSystem/android-experimental-login-register-main/Android-Login-and-Registration-Tutorial/app/src/main/res/layout/activity_login.xml" value="0.2" />
+        <entry key="..\:/ThesesSystem/android-experimental-login-register-main/Android-Login-and-Registration-Tutorial/app/src/main/res/layout/activity_main.xml" value="0.176" />
+        <entry key="..\:/ThesesSystem/android-experimental-login-register-main/Android-Login-and-Registration-Tutorial/app/src/main/res/layout/activity_profile.xml" value="0.264" />
+        <entry key="..\:/ThesesSystem/android-experimental-login-register-main/Android-Login-and-Registration-Tutorial/app/src/main/res/layout/activity_report_and_request.xml" value="0.25416666666666665" />
+        <entry key="..\:/ThesesSystem/android-experimental-login-register-main/Android-Login-and-Registration-Tutorial/app/src/main/res/layout/activity_settings.xml" value="0.25416666666666665" />
+        <entry key="..\:/ThesesSystem/android-experimental-login-register-main/Android-Login-and-Registration-Tutorial/app/src/main/res/layout/activity_settings_change_password_and_username.xml" value="0.25416666666666665" />
+        <entry key="..\:/ThesesSystem/android-experimental-login-register-main/Android-Login-and-Registration-Tutorial/app/src/main/res/layout/activity_settings_policies_and_guidelines.xml" value="0.25416666666666665" />
+        <entry key="..\:/ThesesSystem/android-experimental-login-register-main/Android-Login-and-Registration-Tutorial/app/src/main/res/layout/activity_settings_update_account_status.xml" value="0.25416666666666665" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_15" project-jdk-name="16" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

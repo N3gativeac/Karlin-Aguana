@@ -1,0 +1,18 @@
+v1.1.6
+- Add ajax filter canvas.
+- Improve sticky add to cart.
+
+v1.1.5
+- Add ajax filter sidebar.
+- Improve sticky add to cart.
+- Improve ajax load more.
+- Fix outdate WooCommerce templates
+
+v1.1.3
+- Remove welcome notice.
+- Improve mobile menu.
+- Remove remove upsell.
+- Remove welcome notice.
+
+v1.0.0
+- Release.

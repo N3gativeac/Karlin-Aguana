@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ReportAndRequestNativeActivity">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <TextView
+                android:id="@+id/textView21"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Report and Request form" />
+
+            <TextView
+                android:id="@+id/textView22"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView23"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Type of Report/Request:" />
+
+            <RadioGroup
+                android:id="@+id/RadioGroupReportRequest"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <RadioButton
+                    android:id="@+id/radioButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="[Report] Power Loss (Natural)" />
+
+                <RadioButton
+                    android:id="@+id/radioButton2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="[Report] Power Loss (Man-Made)" />
+
+                <RadioButton
+                    android:id="@+id/radioButton3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="[Request] Hire to (re)install electrical wiring" />
+
+                <RadioButton
+                    android:id="@+id/radioButton4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="[Request] Fix electrical wiring" />
+
+                <RadioButton
+                    android:id="@+id/radioButton5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="[Other] Please Specify" />
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/textView24"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Additional Infomation" />
+
+            <EditText
+                android:id="@+id/editTextSpecificRequestReport"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Add more information about report/request."
+                android:inputType="textPersonName" />
+
+            <TextView
+                android:id="@+id/textView25"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Personal Information and Location" />
+
+            <EditText
+                android:id="@+id/editTextNameRequest"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Name (Required)"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/editTextPhoneNumRequest"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Phone Number (Required)"
+                android:inputType="phone" />
+
+            <EditText
+                android:id="@+id/editTextPurokRequest"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Purok (Required)"
+                android:inputType="textPersonName" />
+
+            <TextView
+                android:id="@+id/textView26"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Barangay" />
+
+            <Spinner
+                android:id="@+id/spinnerBarangayRequest"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:entries="@array/tempBrgyPicker" />
+
+            <TextView
+                android:id="@+id/textView27"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Town/City" />
+
+            <Spinner
+                android:id="@+id/spinnerTownRequest"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:entries="@array/DistrictsMunicipalitiesSultanKudarat" />
+
+            <Button
+                android:id="@+id/buttonSubmitRequest"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Submit Report/Request" />
+        </LinearLayout>
+    </RelativeLayout>
+
+</ScrollView>

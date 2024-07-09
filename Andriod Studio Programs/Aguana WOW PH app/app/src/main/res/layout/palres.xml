@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".jbospots">
+
+        <TextView
+            android:id="@+id/test"
+            android:layout_width="346dp"
+            android:layout_height="wrap_content"
+            android:justificationMode="inter_word"
+            android:text="      The Gypsy’s Lair is a hipster cafe and restaurant that serves authentic Thai cuisine, specializing in dishes like green curry, pad thai, and more. This place has nice interiors and contemporary paintings too by several local artists."
+            android:textSize="10sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.502"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="122dp"
+            android:layout_height="80dp"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="48dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.008"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/gypsy" />
+
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="104dp"
+            android:layout_height="15dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginBottom="24dp"
+            android:text="The Gypsy’s Lair Art Cafe"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/test"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toEndOf="@+id/imageView2"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="1.0" />
+
+        <TextView
+            android:id="@+id/test1"
+            android:layout_width="347dp"
+            android:layout_height="wrap_content"
+            android:justificationMode="inter_word"
+            android:text="     One of the most popular restaurants in Puerto Prinsesa, Kalui is a native Filipino restaurant that serves traditional dishes with a unique twist. We’ve heard that some of their must-tries include the seaweed salad, sisig, lobsters, and more."
+            android:textSize="10sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView3" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="122dp"
+            android:layout_height="80dp"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="12dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/test"
+            app:srcCompat="@drawable/kalui" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="107dp"
+            android:layout_height="14dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginBottom="24dp"
+            android:text="Kalui Restaurant"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/test1"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toEndOf="@+id/imageView3"
+            app:layout_constraintTop_toBottomOf="@+id/test"
+            app:layout_constraintVertical_bias="1.0" />
+
+        <TextView
+            android:id="@+id/test2"
+            android:layout_width="347dp"
+            android:layout_height="360dp"
+            android:justificationMode="inter_word"
+            android:text="      Kinabuch’s is a Filipino bar and restaurant that is known to serve native and exotic dishes like tamilok, crocodile sisig, crabs, and more. Best to visit this restaurant at night to enjoy good food while chugging down some ice-cold beers."
+            android:textSize="10sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.515"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView4" />
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="122dp"
+            android:layout_height="80dp"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="12dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/test1"
+            app:srcCompat="@drawable/kinabuch" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginBottom="24dp"
+            android:text="Kinabuch’s"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/test2"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toEndOf="@+id/imageView4"
+            app:layout_constraintTop_toBottomOf="@+id/test1"
+            app:layout_constraintVertical_bias="1.0" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

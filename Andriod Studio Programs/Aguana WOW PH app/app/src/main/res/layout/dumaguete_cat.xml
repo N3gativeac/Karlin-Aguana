@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".Javadumaguete">
+
+
+        <RadioGroup
+            android:id="@+id/radioGroup"
+            android:layout_width="128dp"
+            android:layout_height="139dp"
+            android:layout_marginTop="52dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.78"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <RadioButton
+                android:id="@+id/Dum_hotel"
+                android:layout_width="wrap_content"
+                android:layout_height="34dp"
+                android:layout_marginLeft="2dp"
+                android:text="@string/Dum_hotel"
+                android:textSize="14sp" />
+
+            <RadioButton
+                android:id="@+id/Dum_spots"
+                android:layout_width="wrap_content"
+                android:layout_height="34dp"
+                android:layout_marginLeft="2dp"
+                android:text="@string/Dum_spots"
+                android:textSize="12sp" />
+
+            <RadioButton
+                android:id="@+id/Dum_malls"
+                android:layout_width="wrap_content"
+                android:layout_height="33dp"
+                android:layout_marginLeft="2dp"
+                android:text="@string/Dum_malls"
+                android:textSize="12sp" />
+
+            <RadioButton
+                android:id="@+id/Dum_restaurants"
+                android:layout_width="wrap_content"
+                android:layout_height="37dp"
+                android:layout_marginLeft="2dp"
+                android:text="@string/Dum_restaurants"
+                android:textSize="12sp" />
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/btn"
+            android:layout_width="84dp"
+            android:layout_height="32dp"
+            android:layout_marginTop="12dp"
+            android:text="@string/btn"
+            android:textSize="12sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.74"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/radioGroup" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="191dp"
+            android:layout_height="181dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="52dp"
+            app:layout_constraintEnd_toStartOf="@+id/radioGroup"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/dumaguete" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="343dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:justificationMode="inter_word"
+            android:text="      Dumaguete City is a city in the Philippine province of Negros Oriental . It is the capital, principal seaport , and largest city of Negros Oriental. According to the 2000 census, it has a population of 102,265 people. A person from Dumaguete City is called a Dumagueteño. The city is nicknamed The City of Gentle People ."
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btn" />" to be a total fabrication.[3][4][5][6] In 1437, the short-lived dynasty of Datu Kalantiaw ended when Datu Kalantiaw III was killed in battle with the tribes of Datu Manduyog, the legitimate successor of Datu Dinagandan. When Datu Manduyog became the new chieftain, he moved the capital to Bakan (now known as Banga)."
+            app:layout_constraintTop_toBottomOf="@+id/imageView"
+            tools:layout_editor_absoluteX="78dp" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="346dp"
+            android:layout_height="899dp"
+            android:justificationMode="inter_word"
+            android:text="      Dumaguete City is referred to as a university town because of the presence of seven universities and colleges, where students of the province converge to enroll for tertiary education. The city is also a popular educational destination for students of surrounding provinces and cities in Visayas and Mindanao . The city is best known for Silliman University , the first Philippine university outside Manila and the country's first Protestant school. There are also 12 elementary schools and 9 high schools. The city's student population is estimated at 30,000."
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/textView" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

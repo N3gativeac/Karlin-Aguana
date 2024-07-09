@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Healty Recipes</string>
+    <string name="txtTitle">Bruschetta Recipe</string>
+    <string name="description">Recipe Image</string>
+    <string name="txtIngredients">Ingredients</string>
+    <string name="txtItem1">4 plum tomatoes</string>
+    <string name="txtItem2">6 basil leaves</string>
+    <string name="txtItem3">3 garlic cloves, chopped</string>
+    <string name="txtItem4">3 TB olive oil</string>
+    <string name="txtDirections">Directions</string>
+    <string name="txtMix">Combine the ingredients and add salt to taste. Top French bread slices with mixture</string>
+    <string name="btnRecipe">View Recipe</string>
+</resources>

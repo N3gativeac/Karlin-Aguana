@@ -1,0 +1,70 @@
+.banner-section, .article-outer-box{
+  width: auto;
+  height: auto;
+}
+/*Banner section*/
+.banner-section h1 {
+  font-weight: 800;
+}
+.banner-section p {
+  font-size: 15px !important;
+  letter-spacing: 0 !important;
+  line-height: 2 !important;
+  text-align: center !important;
+}
+.banner-section .btn a:hover {
+  background-color: #252f3b !important;
+}
+.wp-block-buttons.aligncenter, figure.aligncenter.size-large{
+  border: none !important;
+}
+/*Article section*/
+.article-outer-box {
+  margin: 0 auto !important;
+  max-width: 1000px !important; 
+  min-height: 350px;
+}
+.article-outer-box h4{
+  font-size: 18px;
+  font-weight: 400;
+  font-family: 'ABeeZee', sans-serif;
+}
+.article-outer-box h4::before {
+  content: "";
+  background: #4167f6;
+  display: inline-block;
+  width: 60px;
+  height: 3px;
+  margin-right: 10px;
+}
+.article-outer-box h4::after {
+  content: "";
+  background: #4167f6;
+  display: inline-block;
+  width: 60px;
+  height: 3px;
+  margin-left: 10px;
+}
+.article-outer-box h2{
+  font-size: 1.75rem;
+  margin-bottom: 40px !important;
+}
+.article-outer-box h3{
+  font-size: 14px !important;
+}
+@media screen and (max-width:781px) {
+  .wp-block-column.is-vertically-aligned-center{
+    flex-basis: 100%!important;
+  }
+}
+@media screen and (max-width:1000px) {
+  .banner-section h1 {
+    font-size: 30px !important;
+  }
+  .article-outer-box h2{
+    font-size: 25px !important;
+  }
+  .article-section{
+    margin-bottom: 20px;
+  }
+}

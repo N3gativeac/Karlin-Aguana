@@ -1,0 +1,27 @@
+ jQuery(document).ready(function(){
+   jQuery("#testimonial-slider").owlCarousel({
+        items:2,
+        itemsDesktop:[1000,2],
+        itemsDesktopSmall:[979,2],
+        itemsTablet:[767,1],
+        dots:true,
+         
+        slideSpeed:1000,
+        autoPlay:true,
+		responsive:{
+        0:{
+            items:1,
+            nav:false
+        },
+        600:{
+            items:1,
+            nav:false
+        },
+        1000:{
+            items:2,
+            nav:false,
+            loop:false
+        }
+    }
+    });
+});

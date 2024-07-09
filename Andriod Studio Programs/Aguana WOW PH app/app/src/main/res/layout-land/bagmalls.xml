@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".jbospots">
+
+        <TextView
+            android:id="@+id/test"
+            android:layout_width="600dp"
+            android:layout_height="wrap_content"
+            android:justificationMode="inter_word"
+            android:text="      Baguio isn’t immune to the infectious shopping bug that SM Supermalls brings to the country’s major cities with the existence of SM City Baguio.Located in Luneta Hill in Upper Session Road, SM City Baguio opened in 2003 and since then has been the largest shopping mall in the whole North Luzon region. It is also the only mall to not utilize a central air-conditioning system and the second mall to make use of natural lighting, the other being the SM Mall of Asia."
+            android:textSize="10sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.502"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="122dp"
+            android:layout_height="80dp"
+            android:layout_marginStart="65dp"
+            android:layout_marginTop="48dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.008"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/smcitybaguio" />
+
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="104dp"
+            android:layout_height="15dp"
+            android:layout_marginStart="32dp"
+            android:layout_marginBottom="25dp"
+            android:text="SM City Baguio"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/test"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toEndOf="@+id/imageView2"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="1.0" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="122dp"
+            android:layout_height="80dp"
+            android:layout_marginStart="65dp"
+            android:layout_marginTop="12dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/test"
+            app:srcCompat="@drawable/porta" />
+
+        <TextView
+            android:id="@+id/test1"
+            android:layout_width="600dp"
+            android:layout_height="wrap_content"
+            android:justificationMode="inter_word"
+            android:text="     Session Road in Baguio is considered as the city’s cauldron of business and trade, where merchants big and small open shop to the teeming tourists and shoppers. Due to shopping centers like the famous Porta Vaga Mall, which opened in 2002, business in Session Road is always alive."
+            android:textSize="10sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.515"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView3" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginBottom="25dp"
+            android:text="Porta Vaga Mall"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/test1"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toEndOf="@+id/imageView3"
+            app:layout_constraintTop_toBottomOf="@+id/test"
+            app:layout_constraintVertical_bias="1.0" />
+
+        <TextView
+            android:id="@+id/test2"
+            android:layout_width="600dp"
+            android:layout_height="360dp"
+            android:justificationMode="inter_word"
+            android:text="      Some businesses in Baguio have existed long enough that they have been a pillar of what has been deemed the “Baguio City Experience.” Such a pillar is Tiong San, who dubs itself “Suki ng Bayan” (the people’s favorite)."
+            android:textSize="10sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView4" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="32dp"
+            android:layout_marginBottom="25dp"
+            android:text="Tiong San Harrison and La Trinidad"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/test2"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toEndOf="@+id/imageView4"
+            app:layout_constraintTop_toBottomOf="@+id/test1"
+            app:layout_constraintVertical_bias="1.0" />
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="122dp"
+            android:layout_height="80dp"
+            android:layout_marginStart="65dp"
+            android:layout_marginTop="12dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/test1"
+            app:srcCompat="@drawable/tiongsan" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

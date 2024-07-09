@@ -1,0 +1,369 @@
+<resources>
+    <string name="app_name">SUKELCO Service Power (Staff)</string>
+    // String arrays for different supported municipalities/cities and barangays
+    //Municipalities of Sultan Kudarat and Maguindanao
+    <string-array name="DistrictsMunicipalitiesSultanKudarat">
+        <item>Bagumbayan</item>
+        <item>Columbio</item>
+        <item>Datu Paglas</item>
+        <item>Esperanza</item>
+        <item>Isulan</item>
+        <item>Kalamansig</item>
+        <item>Lambayong</item>
+        <item>Lebak</item>
+        <item>Lutayan</item>
+        <item>Mangudadatu</item>
+        <item>Paglat</item>
+        <item>Palimbang</item>
+        <item>Pandag</item>
+        <item>President Quirino</item>
+        <item>Senator Ninoy Aquino</item>
+        <item>Tacurong City</item>
+    </string-array>
+    // Barangays in Bagumbayan
+    <string-array name="BagumbayanBarangay">
+        <item>Bai Saripinang</item>
+        <item>Biwang</item>
+        <item>Busok</item>
+        <item>Chua</item>
+        <item>Daguma (Mt. Daguma Gunting)</item>
+        <item>Daluga</item>
+        <item>Kabulanan</item>
+        <item>Kanulay</item>
+        <item>Kapaya</item>
+        <item>Kinayao</item>
+        <item>Masiag</item>
+        <item>Monteverde</item>
+        <item>Poblacion</item>
+        <item>Santo Niño</item>
+        <item>Sison</item>
+        <item>South Sepaka (Shariff Galmak)</item>
+        <item>Sumilil</item>
+        <item>Titulok</item>
+        <item>Tuka</item>
+    </string-array>
+    // Barangays in Columbio
+    <string-array name="ColumbioBarangay">
+        <item>Bantangan (Lasak)</item>
+        <item>Datablao</item>
+        <item>Eday</item>
+        <item>Elbebe</item>
+        <item>Lasak</item>
+        <item>Libertad</item>
+        <item>Lomoyon</item>
+        <item>Makat (Sumali Pas)</item>
+        <item>Maligaya</item>
+        <item>Mayo</item>
+        <item>Natividad</item>
+        <item>Poblacion</item>
+        <item>Polomolok</item>
+        <item>Sinapulan</item>
+        <item>Sucob</item>
+        <item>Telafas</item>
+    </string-array>
+    // Barangays in Datu Paglas
+    <string-array name="DatuPaglasBarangays">
+        <item>Alip (Poblacion)</item>
+        <item>Bonawan</item>
+        <item>Bulod</item>
+        <item>Damalusay</item>
+        <item>Damawato</item>
+        <item>Datang</item>
+        <item>Elbebe</item>
+        <item>Kalumenga (Kalumanga)</item>
+        <item>Katil</item>
+        <item>Lipao</item>
+        <item>Lomoyon</item>
+        <item>Madidis</item>
+        <item>Makat</item>
+        <item>Malala</item>
+        <item>Mangadeg</item>
+        <item>Manindolo</item>
+        <item>Mao</item>
+        <item>Napok</item>
+        <item>Palao sa Buto</item>
+        <item>Poblacion</item>
+        <item>Puya</item>
+        <item>Salendab</item>
+        <item>Sepaka</item>
+    </string-array>
+    //Barangays in Esperanza
+    <string-array name="EsperanzaBarangays">
+        <item>Ala</item>
+        <item>Daladap</item>
+        <item>Dukay</item>
+        <item>Guiamalia</item>
+        <item>Ilian</item>
+        <item>Kangkong</item>
+        <item>Laguinding</item>
+        <item>Magsaysay</item>
+        <item>Margues</item>
+        <item>New Panay</item>
+        <item>Numo</item>
+        <item>Paitan</item>
+        <item>Pamantingan</item>
+        <item>Poblacion</item>
+        <item>Sagasa</item>
+        <item>Salabaca</item>
+        <item>Saliao</item>
+        <item>Salumping</item>
+        <item>Villamor</item>
+    </string-array>
+    //Barangays in Isulan
+    <string-array name="IsulanBarangays">
+        <item>Bambad</item>
+        <item>Bual</item>
+        <item>D Lotilla</item>
+        <item>Dansuli</item>
+        <item>Impao</item>
+        <item>Kalawag I</item>
+        <item>Kalawag II</item>
+        <item>Kalawag III</item>
+        <item>Kenram</item>
+        <item>Kolambog</item>
+        <item>Kudanding</item>
+        <item>Lagandang</item>
+        <item>Laguilayan</item>
+        <item>Mapantig</item>
+        <item>New Pangasinan</item>
+        <item>Sampao</item>
+        <item>Tayugo</item>
+    </string-array>
+    //Barangays in Kalamansig
+    <string-array name="KalamansigBarangays">
+        <item>Bantogon</item>
+        <item>Cadiz</item>
+        <item>Datu Ito Andong</item>
+        <item>Datu Wasay</item>
+        <item>Dumangas Nuevo</item>
+        <item>Hinalaan</item>
+        <item>Limulan</item>
+        <item>Nalilidan</item>
+        <item>Obial</item>
+        <item>Pag-asa (Sultan Gunting Mopak)</item>
+        <item>Paril</item>
+        <item>Poblacion</item>
+        <item>Sabanal</item>
+        <item>Sangay</item>
+        <item>Santa Clara</item>
+    </string-array>
+    //Barangays in Lambayong
+    <string-array name="LabayongBarangays">
+        <item>Caridad (Cuyapon)</item>
+        <item>Didtaras</item>
+        <item>Gansing (Bilumen)</item>
+        <item>Kabulakan</item>
+        <item>Kapingkong</item>
+        <item>Kapingkong</item>
+        <item>Lagao</item>
+        <item>Lilit</item>
+        <item>Madanding</item>
+        <item>Maligaya</item>
+        <item>Mamali</item>
+        <item>Matiompong</item>
+        <item>Midtapok</item>
+        <item>New Cebu</item>
+        <item>Palumbi</item>
+        <item>Pidtiguian</item>
+        <item>Pimbalayan</item>
+        <item>Pinguiaman</item>
+        <item>Poblacion (Lambayong)</item>
+        <item>Sadsalan</item>
+        <item>Seneben</item>
+        <item>Sigayan</item>
+        <item>Tambak</item>
+        <item>Tinumigues</item>
+        <item>Tumiao (Tinaga)</item>
+        <item>Udtong</item>
+    </string-array>
+    //Barangays in Lebak
+    <string-array name="LebakBarangays">
+        <item>Aurelio F. Freires (Poblacion II)</item>
+        <item>Barurao</item>
+        <item>Barurao II</item>
+        <item>Basak</item>
+        <item>Bolebak</item>
+        <item>Bululawan</item>
+        <item>Capilan</item>
+        <item>Christiannuevo</item>
+        <item>Datu Karon</item>
+        <item>Kalamongog</item>
+        <item>Keytodac</item>
+        <item>Kinodalan</item>
+        <item>New Calinog</item>
+        <item>Nuling</item>
+        <item>Pansud</item>
+        <item>Pasandalan</item>
+        <item>Poblacion I</item>
+        <item>Poblacion III</item>
+        <item>Poloy-poloy</item>
+        <item>Purikay</item>
+        <item>Ragandang</item>
+        <item>Salaman</item>
+        <item>Salangsang</item>
+        <item>Taguisa</item>
+        <item>Tibpuan</item>
+        <item>Tran</item>
+        <item>Villamonte</item>
+    </string-array>
+    //Barangays in Lutayan
+    <string-array name="LutayanBarangays">
+        <item>Antong</item>
+        <item>Bayasong</item>
+        <item>Blingkong</item>
+        <item>Lutayan Proper</item>
+        <item>Maindang</item>
+        <item>Mamali</item>
+        <item>Manili</item>
+        <item>Palavilla</item>
+        <item>Sampao</item>
+        <item>Sisiman</item>
+        <item>Tamnag</item>
+    </string-array>
+    //Barangays in Mangudadatu
+    <string-array name="MangudadatuBarangays">
+        <item>Daladagan</item>
+        <item>Kalian</item>
+        <item>Luayan</item>
+        <item>Paitan</item>
+        <item>Panapan</item>
+        <item>Tenok</item>
+        <item>Tinambulan</item>
+        <item>Tumbao</item>
+    </string-array>
+    //Barangays in Paglat
+    <string-array name="PaglatBarangays">
+        <item>Campo</item>
+        <item>Damakling</item>
+        <item>Damalusay</item>
+        <item>Kakal</item>
+        <item>Paglat (Poblacion)</item>
+        <item>Salam</item>
+        <item>Tual</item>
+        <item>Upper Idtig</item>
+    </string-array>
+    //Barangays in Palimbang
+    <string-array name="PalimbangBarangays">
+        <item>Akol</item>
+        <item>Badiangon</item>
+        <item>Baliango</item>
+        <item>Baluan (Bulan)</item>
+        <item>Bambanen</item>
+        <item>Baranayan</item>
+        <item>Barongis</item>
+        <item>Batang-baglas</item>
+        <item>Butril</item>
+        <item>Colobe (Tagadtal)</item>
+        <item>Datu Maguiales (Likuban)</item>
+        <item>Domolol</item>
+        <item>Kabuling</item>
+        <item>Kalibuhan</item>
+        <item>Kanipaan</item>
+        <item>Kidayan</item>
+        <item>Kiponget</item>
+        <item>Kisek</item>
+        <item>Kraan</item>
+        <item>Kulong-kulong</item>
+        <item>Langali</item>
+        <item>Libua</item>
+        <item>Ligao</item>
+        <item>Lopoken (Lepolon)</item>
+        <item>Lumitan</item>
+        <item>Maganao</item>
+        <item>Maguid</item>
+        <item>Malatunol</item>
+        <item>Malisbong</item>
+        <item>Medol</item>
+        <item>Milbuk</item>
+        <item>Mina</item>
+        <item>Molon</item>
+        <item>Namat </item>
+        <item>Napnapon</item>
+        <item>Poblacion</item>
+        <item>San Roque (Tibulos)</item>
+        <item>Tibuhol (East Badiangon)</item>
+        <item>Wal</item>
+        <item>Wasag</item>
+    </string-array>
+    //Barangays in Pandag
+    <string-array name="PandagBarangays">
+        <item>Kabuling</item>
+        <item>Kayaga</item>
+        <item>Kayupo (Cuyapo)</item>
+        <item>Lepak</item>
+        <item>Lower Dilag</item>
+        <item>Malangit</item>
+        <item>Pandag</item>
+    </string-array>
+    //Barangays in President Quirino
+    <string-array name="PresQuirinoBarangays">
+        <item>Bagumbayan</item>
+        <item>Bannawag</item>
+        <item>Bayawa</item>
+        <item>Central Mangilala</item>
+        <item>Estrella</item>
+        <item>Kalanawi I</item>
+        <item>Kalanawi II</item>
+        <item>Katico</item>
+        <item>Malingon</item>
+        <item>Mangelen</item>
+        <item>Pedtubo</item>
+        <item>Poblacion (Sambulawan)</item>
+        <item>Romualdez</item>
+        <item>San Jose</item>
+        <item>Sinakulay</item>
+        <item>Suben</item>
+        <item>Tinaungan</item>
+        <item>Tual (Liguasan)</item>
+        <item>Tuato (San Pedro)</item>
+    </string-array>
+    //Barangays in Senior Ninoy Aquino
+    <string-array name="SenNinoyAquinoBarangays">
+        <item>Banali</item>
+        <item>Basag</item>
+        <item>Buenaflores</item>
+        <item>Bugso</item>
+        <item>Buklod</item>
+        <item>Gapok</item>
+        <item>Kadi</item>
+        <item>Kapatagan</item>
+        <item>Kiadsam</item>
+        <item>Kuden</item>
+        <item>Kulaman</item>
+        <item>Lagubang</item>
+        <item>Langgal</item>
+        <item>Limuhay</item>
+        <item>Malegdeg</item>
+        <item>Midtungok</item>
+        <item>Nati</item>
+        <item>Sewod</item>
+        <item>Tacupis</item>
+        <item>Tinalon</item>
+    </string-array>
+    //Barangays in Tacurong (TBF later)
+    <string-array name="TacurongBarangays">
+        <item>Baras</item>
+        <item>Buenaflor</item>
+        <item>Calean</item>
+        <item>Carmen</item>
+        <item>D Ledesma</item>
+        <item>Gansing</item>
+        <item>Kalandagan</item>
+        <item>Lancheta</item>
+        <item>Lower Katungal</item>
+        <item>New Isabela</item>
+        <item>New Lagao</item>
+        <item>New Passi</item>
+        <item>Poblacion</item>
+        <item>Rajah Muda</item>
+        <item>San Antonio</item>
+        <item>San Emmanuel</item>
+        <item>San Pablo</item>
+        <item>San Rafael</item>
+        <item>Tina</item>
+        <item>Upper Katungal</item>
+    </string-array>
+    <string-array name="tempBrgyPicker">
+        <item>Pick a Municipality or Town first</item>
+    </string-array>
+</resources>

@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">City Guide</string>
+    <string name="willis">Willis Tower Image</string>
+    <string name="water">Water Tower Image</string>
+    <string name="pier">Navy Pier Image</string>
+
+    <string name="Man_Hotels">Hotels</string>
+    <string name="Man_spots">Tourists spots</string>
+    <string name="Man_malls">Malls</string>
+    <string name="Man_restaurants">Restaurants</string>
+
+    <string name="Bo_hotel">Hotels</string>
+    <string name="Bo_spots">Tourists spots</string>
+    <string name="Bo_malls">Malls</string>
+    <string name="Bo_restaurants">Restaurants</string>
+
+    <string name="Pal_hotel">Hotels</string>
+    <string name="Pal_spots">Tourists spots</string>
+    <string name="Pal_malls">Malls</string>
+    <string name="Pal_restaurants">Restaurants</string>
+
+    <string name="Bag_hotel">Hotels</string>
+    <string name="Bag_spots">Tourists spots</string>
+    <string name="Bag_malls">Malls</string>
+    <string name="Bag_restaurants">Restaurants</string>
+
+    <string name="Tag_hotel">Hotels</string>
+    <string name="Tag_spots">Tourists spots</string>
+    <string name="Tag_malls">Malls</string>
+    <string name="Tag_restaurants">Restaurants</string>
+
+    <string name="Dum_hotel">Hotels</string>
+    <string name="Dum_spots">Tourists spots</string>
+    <string name="Dum_malls">Malls</string>
+    <string name="Dum_restaurants">Restaurants</string>
+
+
+    <string name="btn">SELECT</string>
+    <string name="btn2">SELECT</string>
+
+    <string name="test">testtttttttttttttttttttttttttttttttttt</string>
+
+</resources>

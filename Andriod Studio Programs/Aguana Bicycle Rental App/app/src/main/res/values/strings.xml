@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Aguana Bicycle Rental App</string>
+    <string name="txtTitle">Mountain Bikes</string>
+    <string name="txtAmount">1,200.00/day</string>
+    <string name="Mountain_D">Mountain bike have wide knobby tire wich allow them to be ribben in loose dirt and over obstacles.</string>
+    <string name="txtNumberofDays">Number of Days</string>
+    <string name="btnComputeCost">COMPUTE COST</string>
+    <string name="MountainImg">image</string>
+    <string name="HeaderMountain">Mountain Bike Rental</string>
+    <string name="txtResult">Result</string>
+    <string name="txtTitle1">Road Bikes</string>
+    <string name="RoadImage">image</string>
+    <string name="txtAmount1">890.00/day</string>
+    <string name="Road_D">Road bikes are bicycles designed to take you as far and as fast as your legs can manage.</string>
+    <string name="BMXImg">image</string>
+    <string name="txtTitle2">" BMX/Trick Bike"</string>
+    <string name="txtAmount2">1,300.25/day</string>
+    <string name="BMX_D">BMX/Trial bikes are more likely to come with \"bash guards\" around the chainring. BMX bikes may come with somewhat higher gears than trial bikes</string>
+    <string name="TriathlonImg">image</string>
+    <string name="txtTitle3">Triathlon/Time Trial Bikes</string>
+    <string name="txtAmount3">1,560.50/day</string>
+    <string name="Triayhlon_D">Triathlon bicycles are a variant of road-racing bicycles, designed primarily to optimise aerodynamics.</string>
+    <string name="TandemImg">image</string>
+    <string name="txtTitle4">Tandem Bikes</string>
+    <string name="txtAmount4">500.75/day</string>
+    <string name="Tandem_D">Tandem bicycle or twin is a form of bicycle (occasionally a tricycle) designed to be ridden by more than one person.</string>
+    <string name="AdultImg">image</string>
+    <string name="txtTitle5">Adult Trike Bikes</string>
+    <string name="txtAmount5">625.00/day</string>
+    <string name="Adult_D">Adult tricycles are lower to the ground and usually have dropdown frames which makes getting on and off the adult trike easy even for those with limited range of motion.</string>
+</resources>

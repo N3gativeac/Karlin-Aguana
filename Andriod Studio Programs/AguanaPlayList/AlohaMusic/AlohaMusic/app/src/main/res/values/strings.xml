@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Aloha Music</string>
+    <string name="txtSplash">Sounds of Hawaii</string>
+
+    <string name="ukulele">Ukulele Image</string>
+    <string name="drums">Drums Image</string>
+
+
+    <string name="btnUkulele">Play Ukelele Song</string>
+    <string name="btnDrums">Play Drums Song</string>
+
+    <string name="btnNF">Play Got You On My Mind</string>
+    <string name="btnJacquees">Play You</string>
+    <string name="btnRuss">Play Nobody Knows</string>
+</resources>

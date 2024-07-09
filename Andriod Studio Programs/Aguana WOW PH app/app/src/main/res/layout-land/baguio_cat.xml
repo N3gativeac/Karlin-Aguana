@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".Javabaguio">
+
+
+        <RadioGroup
+            android:id="@+id/radioGroup"
+            android:layout_width="128dp"
+            android:layout_height="139dp"
+            android:layout_marginTop="40dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.426"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <RadioButton
+                android:id="@+id/Bag_hotel"
+                android:layout_width="wrap_content"
+                android:layout_height="34dp"
+                android:layout_marginLeft="2dp"
+                android:text="@string/Bag_hotel"
+                android:textSize="14sp" />
+
+            <RadioButton
+                android:id="@+id/Bag_spots"
+                android:layout_width="wrap_content"
+                android:layout_height="34dp"
+                android:layout_marginLeft="2dp"
+                android:text="@string/Bag_spots"
+                android:textSize="12sp" />
+
+            <RadioButton
+                android:id="@+id/Bag_malls"
+                android:layout_width="wrap_content"
+                android:layout_height="33dp"
+                android:layout_marginLeft="2dp"
+                android:text="@string/Bag_malls"
+                android:textSize="12sp" />
+
+            <RadioButton
+                android:id="@+id/Bag_restaurants"
+                android:layout_width="wrap_content"
+                android:layout_height="37dp"
+                android:layout_marginLeft="2dp"
+                android:text="@string/Bag_restaurants"
+                android:textSize="12sp" />
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/btn"
+            android:layout_width="84dp"
+            android:layout_height="32dp"
+            android:layout_marginTop="8dp"
+            android:text="@string/btn"
+            android:textSize="12sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.431"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/radioGroup" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="191dp"
+            android:layout_height="181dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="40dp"
+            app:layout_constraintEnd_toStartOf="@+id/radioGroup"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/baguio" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="600dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:justificationMode="inter_word"
+            android:text="      Baguio City is located some 1,600 meters above sea level, nestled within the Cordillera Central mountain range in northern Luzon. The city is enclosed by the province of Benguet. It covers a small area of 57.5 square kilometers. Most of the developed part of the city is built on uneven, hilly terrain of the northern section. When Daniel Burnham plotted the plans for the city, he made the City Hall as a reference point where the city limits extend 8.2 kilometers (5.1 mi) from east to west and 7.2 kilometers (4.5 mi) from north to south. It is the highest major Philippine city in terms of elevation."
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btn" />" to be a total fabrication.[3][4][5][6] In 1437, the short-lived dynasty of Datu Kalantiaw ended when Datu Kalantiaw III was killed in battle with the tribes of Datu Manduyog, the legitimate successor of Datu Dinagandan. When Datu Manduyog became the new chieftain, he moved the capital to Bakan (now known as Banga)."
+        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        tools:layout_editor_absoluteX="78dp" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="600dp"
+            android:layout_height="wrap_content"
+            android:justificationMode="inter_word"
+            android:text="      Baguio City features a subtropical highland climate under the Köppen climate classification. The city is known for its mild climate. It is because of this that Baguio is nicknamed the “Summer Capital of the Philippines”. Owing to its high elevation, the temperature in the city is 8 degrees Celsius lower compared to the average temperature of the rest of the country.Average temperature ranges from 15 to 23 degrees Celsius. It is usually lower during the late and early months of the year. The lowest recorded temperature was 6.3 degrees Celsius on January 18, 1961. This is in contrast to the all-time high of 30.4 degrees Celsius recorded on March 15, 1988 during the 1988 El Niño season.Baguio seldom exceeds 26 degrees Celsius even during the warmest part of the year."
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/textView" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

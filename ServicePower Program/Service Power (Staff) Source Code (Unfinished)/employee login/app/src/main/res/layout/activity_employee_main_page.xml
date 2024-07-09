@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EmployeeMainPage">
+
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TableLayout
+                android:id="@+id/CustomerInfoMain"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+                <TableRow>
+
+                    <TextView
+                        android:id="@+id/AccountInformation"
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:padding="10dp"
+                        android:text="@string/accountInformation"
+                        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large" />
+
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:id="@+id/EmployeeFullName"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="10dp"
+                        android:text="Name"
+                        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large" />
+
+                    <TextView
+                        android:id="@+id/TextViewEmployeeFullName"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="10dp"
+                        android:text="Name"
+                        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large" />
+
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:id="@+id/EmployeeAge"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="10dp"
+                        android:text="Age"
+                        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large" />
+
+                    <TextView
+                        android:id="@+id/textViewEmployeeAge"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="10dp"
+                        android:text="20"
+                        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large" />
+
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:id="@+id/EmployeePosition"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="10dp"
+                        android:text="Position"
+                        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large" />
+
+                    <TextView
+                        android:id="@+id/textViewEmployeePosition"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="10dp"
+                        android:text="Unknown"
+                        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large" />
+
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:id="@+id/EmployeeAddress"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="10dp"
+                        android:text="Line of Work"
+                        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large" />
+
+                    <TextView
+                        android:id="@+id/textViewEmployeeAddress"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="10dp"
+                        android:text="Unknown"
+                        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large" />
+
+                </TableRow>
+
+            </TableLayout>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TableLayout
+                android:id="@+id/ScheduledReport"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+                <TableRow>
+
+                    <TextView
+                        android:id="@+id/ScheduleReport"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="10dp"
+                        android:text="Scheduled Report:"
+                        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large" />
+
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:id="@+id/ReportSchedule"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="10dp"
+                        android:text="Date &amp; Time"
+                        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large" />
+
+                    <TextView
+                        android:id="@+id/TextViewSchedDT"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="10dp"
+                        android:text="9/20/2021"
+                        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large" />
+
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:id="@+id/ReportLocation"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="10dp"
+                        android:text="Location"
+                        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large" />
+
+                    <TextView
+                        android:id="@+id/textViewSchedLocation"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="10dp"
+                        android:text="Unknown"
+                        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large" />
+
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:id="@+id/ReportDetails"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="10dp"
+                        android:text="Operation Details"
+                        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large" />
+
+                    <TextView
+                        android:id="@+id/textViewSchedDetails"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="10dp"
+                        android:text="None"
+                        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large" />
+
+                </TableRow>
+
+            </TableLayout>
+
+            <Button
+                android:id="@+id/SettingButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/settingButton" />
+
+            <Button
+                android:id="@+id/MRUpdateButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/mruButton" />
+
+            <Button
+                android:id="@+id/RSUButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/rsuButton" />
+
+            <Button
+                android:id="@+id/contactsButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/contactsButton" />
+
+            <Button
+                android:id="@+id/logoutButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Logout" />
+
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+
+</RelativeLayout>

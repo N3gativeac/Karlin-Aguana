@@ -1,0 +1,323 @@
+/*
+JustTables admin style.
+Contain all admin style of the plugin.
+
+Since: 1.0.0
+
+Table of contents:
+==================
+1. Clonable (columns) fields
+2. Text fields
+3. Color fields
+4. Spacing (border radius) fields
+5. Subheading field
+6. Submessage field
+7. Hidden fields
+8. Sections reset
+9. Pro columns label
+10. Pro field label
+11. Pro field notices popup
+12. Advertising
+13. Call to rating
+*/
+
+/* 1. Clonable (columns) fields
+======================================================= */
+.jt-product-table-options .jt-product-table-columns .csf-cloneable-item.column-active .csf-cloneable-text::after {
+	content: "";
+	display: inline-block;
+	width: 10px;
+	height: 10px;
+	background-color: #4fb845;
+	border-radius: 50%;
+	font-size: 10px;
+	line-height: 10px;
+	color: #fff;
+	margin-left: 10px;
+	padding: 0;
+}
+
+/* 2. Text fields
+======================================================= */
+.jt-product-table-options .csf-field-text input {
+	width: 100%;
+}
+
+/* 3. Color fields
+======================================================= */
+.jt-product-table-options .csf-field-color .iris-picker {
+	position: relative !important;
+}
+
+/* 4. Spacing (border radius) fields
+======================================================= */
+.jt-product-table-options .jt-product-table-border-radius .csf--input input {
+	width: 100px;
+}
+
+/* 5. Subheading field
+======================================================= */
+.jt-product-table-shortcode .csf-field-subheading {
+	font-weight: 600;
+}
+
+/* 6. Submessage field
+======================================================= */
+.jt-product-table-design .csf-submessage {
+	font-weight: 600;
+	color: #23282d;
+}
+
+/* 7. Hidden fields
+======================================================= */
+.jt-product-table-options .csf-field.hidden {
+	display: none !important; /* Hidden field must be hidden at any cost */
+	width: 0;
+	height: 0;
+	visibility: hidden;
+	opacity: 0;
+}
+
+/* 8. Sections reset
+======================================================= */
+.csf-sections-reset {
+    z-index: unset;
+}
+
+/* 9. Pro columns label
+======================================================= */
+.pro-column {
+	position: relative;
+}
+.pro-column .csf-cloneable-value::after {
+	content: "Pro";
+    background-color: #ad39ce;
+    color: #fff;
+    padding: 3px 10px;
+    border-radius: 3px;
+    margin-left: 10px;
+}
+.pro-column .csf-cloneable-content {
+	position: relative;
+}
+.pro-column .csf-cloneable-content::after {
+	position: absolute;
+	content: "";
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+    background-color: transparent;
+    z-index: 2;
+}
+.pro-column .csf-cloneable-content .csf-field {
+	opacity: 0.5;
+}
+
+/* 10. Pro field label
+======================================================= */
+.pro-field,
+.jt-product-table-columns .csf-cloneable-item:not(.pro-column) .csf-cloneable-content .custom-width,
+.jt-product-table-columns .csf-cloneable-item:not(.pro-column) .csf-cloneable-content .title-add-elements,
+.jt-product-table-columns .csf-cloneable-item:not(.pro-column) .csf-cloneable-content .action-add-elements {
+	position: relative;
+}
+.pro-field::before,
+.jt-product-table-columns .csf-cloneable-item:not(.pro-column) .csf-cloneable-content .custom-width::before,
+.jt-product-table-columns .csf-cloneable-item:not(.pro-column) .csf-cloneable-content .title-add-elements::before,
+.jt-product-table-columns .csf-cloneable-item:not(.pro-column) .csf-cloneable-content .action-add-elements::before {
+	content: "Pro";
+    background-color: #ad39ce;
+    color: #fff;
+    padding: 3px 10px;
+    border-radius: 3px;
+    margin-bottom: 10px;
+}
+.pro-field::after,
+.jt-product-table-columns .csf-cloneable-item:not(.pro-column) .csf-cloneable-content .custom-width::after,
+.jt-product-table-columns .csf-cloneable-item:not(.pro-column) .csf-cloneable-content .title-add-elements::after,
+.jt-product-table-columns .csf-cloneable-item:not(.pro-column) .csf-cloneable-content .action-add-elements::after {
+	position: absolute;
+	content: "";
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+    background-color: transparent;
+    z-index: 2;
+}
+.pro-field .csf-title,
+.pro-field .csf-fieldset,
+.jt-product-table-columns .csf-cloneable-item:not(.pro-column) .csf-cloneable-content .custom-width .csf-title,
+.jt-product-table-columns .csf-cloneable-item:not(.pro-column) .csf-cloneable-content .custom-width .csf-fieldset,
+.jt-product-table-columns .csf-cloneable-item:not(.pro-column) .csf-cloneable-content .title-add-elements .csf-title,
+.jt-product-table-columns .csf-cloneable-item:not(.pro-column) .csf-cloneable-content .title-add-elements .csf-fieldset,
+.jt-product-table-columns .csf-cloneable-item:not(.pro-column) .csf-cloneable-content .action-add-elements .csf-title,
+.jt-product-table-columns .csf-cloneable-item:not(.pro-column) .csf-cloneable-content .action-add-elements .csf-fieldset {
+	opacity: 0.5;
+}
+
+/* 11. Pro field notices popup
+======================================================= */
+#screen-options-wrap label[for="_jt_product_table_popup"],
+#screen-options-wrap label[for="_jt_product_table_popup-hide"] {
+	display: none;
+}
+.jt-product-table-popup {
+	display: none !important;
+}
+.ui-dialog[aria-describedby="jtpt-pro-notice-dialog"] {
+	max-width: calc(100% - 30px) !important;
+}
+.jtpt-pro-notice-dialog-content {
+	text-align: center;
+}
+.jtpt-pro-notice-dialog-content > span {
+	display: block;
+	margin-bottom: 10px;
+	width: 100%;
+}
+.jtpt-pro-notice-dialog-content > p {
+	font-size: 16px;
+	line-height: 26px;
+	margin: 0;
+}
+.jtpt-pro-notice-dialog-content i {
+	font-size: 40px;
+	line-height: 40px;
+	width: auto;
+	height: auto;
+}
+
+/* 12. Advertising
+======================================================= */
+#screen-options-wrap label[for="_jt_product_table_advertising"],
+#screen-options-wrap label[for="_jt_product_table_advertising-hide"] {
+	display: none;
+}
+.jt-product-table-advertising {
+	display: block !important;
+}
+.jt-product-table-advertising .postbox-header {
+	display: none !important;
+}
+.jt-product-table-advertising .csf-field-content {
+	padding: 0 !important;
+}
+.jt-product-table-advertising-wrapper {
+	font-size: 14px;
+	line-height: 24px;
+	color: #444444;
+	padding: 30px;
+}
+.jt-product-table-advertising-logo {
+	text-align: center;
+	margin-bottom: 20px;
+}
+.jt-product-table-advertising-logo img {
+	width: 100px;
+	height: auto;
+}
+.jt-product-table-advertising-intro {
+	text-align: center;
+	margin-bottom: 25px;
+}
+.jt-product-table-advertising-features {
+	margin-bottom: 30px;
+}
+.jt-product-table-advertising-features ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.jt-product-table-advertising-features ul li {
+	position: relative;
+	margin: 0;
+	padding: 0 0 0 30px;
+}
+.jt-product-table-advertising-features ul li + li {
+	margin-top: 15px;
+}
+.jt-product-table-advertising-features ul li::before {
+	position: absolute;
+    content: url(../images/advertising/tick.png);
+    width: 15px;
+    height: 20px;
+    top: 4px;
+    left: 0;
+    margin: 0;
+}
+.jt-product-table-advertising-action {
+	text-align: center;
+}
+.jt-product-table-advertising-button {
+	position: relative;
+	display: inline-block;
+	background: #2bc48a;
+	font-size: 14px;
+	line-height: 24px;
+	color: #fff;
+	text-decoration: none;
+	border: 1px solid #2bc48a;
+	padding: 12px 55px 12px 20px;
+	border-radius: 25px;
+	outline: 0;
+	transition: 0.4s;
+}
+.jt-product-table-advertising-button:hover,
+.jt-product-table-advertising-button:focus {
+	background: #12b175;
+	color: #fff;
+	text-decoration: none;
+	border: 1px solid #12b175;
+	outline: 0;
+}
+.jt-product-table-advertising-button-icon {
+	position: absolute;
+	width: 40px;
+	height: 40px;
+	top: 4px;
+	right: 4px;
+	background-color: #fff;
+	border-radius: 50%;
+}
+.jt-product-table-advertising-button-icon::before {
+	position: absolute;
+    content: url(../images/advertising/plus.png);
+    width: 10px;
+    height: 24px;
+    top: 50%;
+    left: 50%;
+    margin-top: -12px;
+    margin-left: -5px;
+}
+
+/* 13. Call to rating
+======================================================= */
+#screen-options-wrap label[for="_jt_product_table_call_to_rating"],
+#screen-options-wrap label[for="_jt_product_table_call_to_rating-hide"] {
+	display: none;
+}
+.jt-product-table-call-to-rating {
+	display: block !important;
+}
+.jt-product-table-call-to-rating .postbox-header {
+	display: none !important;
+}
+.jt-product-table-call-to-rating .csf-field-content {
+	padding: 0 !important;
+}
+.jt-product-table-call-to-rating-wrapper {
+	font-size: 14px;
+	line-height: 24px;
+	color: #444444;
+	padding: 30px;
+}
+.jt-product-table-call-to-rating-icon {
+	text-align: center;
+    margin-bottom: 20px;
+}
+.jt-product-table-call-to-rating-icon img {
+	width: 52px;
+	height: auto;
+}

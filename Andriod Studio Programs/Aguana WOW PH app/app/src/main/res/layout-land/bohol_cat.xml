@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+    tools:context=".Javabohol">
+
+
+        <RadioGroup
+            android:id="@+id/radioGroup"
+            android:layout_width="128dp"
+            android:layout_height="139dp"
+            android:layout_marginTop="40dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.426"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <RadioButton
+                android:id="@+id/Bo_hotel"
+                android:layout_width="wrap_content"
+                android:layout_height="34dp"
+                android:layout_marginLeft="2dp"
+                android:text="@string/Bo_hotel"
+                android:textSize="14sp" />
+
+            <RadioButton
+                android:id="@+id/Bo_spots"
+                android:layout_width="wrap_content"
+                android:layout_height="34dp"
+                android:layout_marginLeft="2dp"
+                android:text="@string/Bo_spots"
+                android:textSize="12sp" />
+
+            <RadioButton
+                android:id="@+id/Bo_malls"
+                android:layout_width="wrap_content"
+                android:layout_height="33dp"
+                android:layout_marginLeft="2dp"
+                android:text="@string/Bo_malls"
+                android:textSize="12sp" />
+
+            <RadioButton
+                android:id="@+id/Bo_restaurants"
+                android:layout_width="wrap_content"
+                android:layout_height="37dp"
+                android:layout_marginLeft="2dp"
+                android:text="@string/Bo_restaurants"
+                android:textSize="12sp" />
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/btn"
+            android:layout_width="84dp"
+            android:layout_height="32dp"
+            android:layout_marginTop="8dp"
+            android:text="@string/btn"
+            android:textSize="12sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.429"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/radioGroup" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="191dp"
+            android:layout_height="181dp"
+            android:layout_marginTop="40dp"
+            app:layout_constraintEnd_toStartOf="@+id/radioGroup"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/bohol" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="600dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:justificationMode="inter_word"
+            android:text="      Bohol Province, the 10th largest island in the Philippines, is situated in the center of Visayas region and between the southeastern Cebu and the southwestern Leyte. It is the province with the shortest distance to Cebu City, which can be covered in just one and a half hours by ferry and 20 minutes by air. It boasts a landmass of 4,117.3 square kilometers, and is made up of the oval main island and 73 small islands. Its terrain is slightly rolling, so it is suitable for developing industry and commerce. Inside the mountainous areas of the island, there exist many rare species of endangered animals and plants. The higher land is fit for developing forestry and agriculture. The lower land in the central and northern part has fertile soil and enjoys sufficient water. Over 100 caves have been discovered in Bohol, with the largest one in the east, so the province us an ideal place for cave adventure. There are affluent nonmetallic resources like limestone, guano, silica and clay. The province has a large volume of surface water, with a lot of rivers, streams and springs. The annual average temperature is 29 degrees centigrade."
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btn" />" to be a total fabrication.[3][4][5][6] In 1437, the short-lived dynasty of Datu Kalantiaw ended when Datu Kalantiaw III was killed in battle with the tribes of Datu Manduyog, the legitimate successor of Datu Dinagandan. When Datu Manduyog became the new chieftain, he moved the capital to Bakan (now known as Banga)."
+        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        tools:layout_editor_absoluteX="78dp" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="600dp"
+            android:layout_height="wrap_content"
+            android:justificationMode="inter_word"
+            android:text="      Bohol Province is divided into 1 city, 47 municipalities and 1109 barangays, with its capital named Tagbilaran. The total population is 1,139,130(statistics of 2000), of which 77,700 live in the city and 93% are literate. The major languages used are Boholano, English, Tagalog and Chinese.
+
+The main sectors consist of agriculture, industry, fishery and tourism. The agricultural products include rice, corn, coconut, mango and poultry. The industrial sectors are limestone mining, glucose manufacturing, galvanized iron sheets factory, soft drink bottling plant, food processing, metalcraft, and furniture processing. The major marine products are fish, prawn, lobster, crab and seaweed. Bohol is famous for its tourism industry in the Visayas region. Its tourism concentrates on eco-culture tour. The province boasts not only pristine white sand beach, azure blue waters, coral reef and marine life on the seabed, and water fall, spring, earth cave and forest, but also the well known chocolate mountain, the best preserved Jesuits Church and the tarsier-----the smallest monkey in the world, which only exists in Bohol."
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>

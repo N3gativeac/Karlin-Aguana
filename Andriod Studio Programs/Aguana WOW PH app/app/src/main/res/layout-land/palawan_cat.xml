@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+    tools:context=".Javapalawan">
+
+
+        <RadioGroup
+            android:id="@+id/radioGroup"
+            android:layout_width="128dp"
+            android:layout_height="139dp"
+            android:layout_marginTop="40dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.426"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <RadioButton
+                android:id="@+id/Pal_hotel"
+                android:layout_width="wrap_content"
+                android:layout_height="34dp"
+                android:layout_marginLeft="2dp"
+                android:text="@string/Pal_hotel"
+                android:textSize="14sp" />
+
+            <RadioButton
+                android:id="@+id/Pal_spots"
+                android:layout_width="wrap_content"
+                android:layout_height="34dp"
+                android:layout_marginLeft="2dp"
+                android:text="@string/Pal_spots"
+                android:textSize="12sp" />
+
+            <RadioButton
+                android:id="@+id/Pal_malls"
+                android:layout_width="wrap_content"
+                android:layout_height="33dp"
+                android:layout_marginLeft="2dp"
+                android:text="@string/Pal_malls"
+                android:textSize="12sp" />
+
+            <RadioButton
+                android:id="@+id/Pal_restaurants"
+                android:layout_width="wrap_content"
+                android:layout_height="37dp"
+                android:layout_marginLeft="2dp"
+                android:text="@string/Pal_restaurants"
+                android:textSize="12sp" />
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/btn"
+            android:layout_width="84dp"
+            android:layout_height="32dp"
+            android:layout_marginTop="8dp"
+            android:text="@string/btn"
+            android:textSize="12sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.448"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/radioGroup" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="191dp"
+            android:layout_height="181dp"
+            android:layout_marginStart="28dp"
+            android:layout_marginTop="40dp"
+            app:layout_constraintEnd_toStartOf="@+id/radioGroup"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/palawan" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="600dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:justificationMode="inter_word"
+            android:text="      Palawan is long and narrow and trends northeast-southwest between the South China and Sulu seas. It has a maximum width of 24 miles (39 km) and a mountainous backbone that runs its entire 270-mile (434-km) length, with Mount Mantalingajan (6,840 feet [2,085 metres]) in the south as its highest peak. The archipelago off the southern tip that includes the Balabac and Bugsuk island groups is a remnant of a land bridge that connected Palawan and the island of Borneo during the Pleistocene Epoch (about 2,600,000 to 11,700 years ago); for that reason the animal life and vegetation are more closely related to those of Borneo than to those of the other Philippine islands.
+Palawan’s long, irregular coastline is fringed with coral reefs, and some 1,800 smaller islands and islets lie near Palawan; the main island groups are the Calamian (north), the Dumaran-Cuyo (northeast), and the Balabac-Bugsuk (south). A discontinuous coastal plain that seldom extends more than 5 miles (8 km) inland supports most of the island’s population. The plain, which is best developed on the southeastern coast, constitutes the main agricultural area and has the island’s only all-weather road. Puerto Princesa, on the east-central coast of Palawan island, is the island’s largest city."
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btn" />" to be a total fabrication.[3][4][5][6] In 1437, the short-lived dynasty of Datu Kalantiaw ended when Datu Kalantiaw III was killed in battle with the tribes of Datu Manduyog, the legitimate successor of Datu Dinagandan. When Datu Manduyog became the new chieftain, he moved the capital to Bakan (now known as Banga)."
+        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        tools:layout_editor_absoluteX="78dp" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="600dp"
+            android:layout_height="wrap_content"
+            android:justificationMode="inter_word"
+            android:text="      Scattered settlement and shifting agriculture predominate, with rice as the main food crop. Corn (maize), coconuts, beans, and sweet potatoes are also grown. Large-scale commercial fishing operations are carried out at Puerto Princesa and Taytay. Mineral resources include mercury, silica, and chromite. Oil drilling off Palawan’s northern coast began in 1992. Most of the island is the forest homeland of the Batah, Palawan, and Tagbanuas ethnic groups. Christian migrants (Visayans, Tagalogs, Ilocanos, and Bicolanos) have settled in the north and east. There are some Moro (Muslim) villages in the south. The Tabon Caves on the island’s isolated southwestern coast are an important archaeological site. Areas on and around Palawan—notably in the Calamian Group—were heavily damaged by Super Typhoon Haiyan, a powerful tropical cyclone that devastated the central Philippines in early November 2013. Area 4,550 square miles (11,785 square km). Pop. (2000) including associated nearby islands, 755,412; (2010) including associated nearby islands, 994,340."
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/textView" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>

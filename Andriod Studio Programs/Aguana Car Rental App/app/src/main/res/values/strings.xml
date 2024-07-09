@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Aguana Car Rental App</string>
+    <string name="txtTitle">Aguana Car Rental App</string>
+    <string name="Description">EXPLORE GENSAN! with your leading car rental company!</string>
+    <string name="btn">OUR CARS!</string>
+    <string name="hint">Number of Days</string>
+    <string name="SUV">SUV Php 5,530.25/day</string>
+    <string name="Truck">Truck Php 4,750.75/day</string>
+    <string name="Coupe">Coupe Php 8,326.30/day</string>
+    <string name="btnComputeCost">Compute Cost</string>
+</resources>

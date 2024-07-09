@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+    tools:context=".Javamanila">
+
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="128dp"
+        android:layout_height="139dp"
+        android:layout_marginTop="52dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.78"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <RadioButton
+            android:id="@+id/Man_Hotels"
+            android:layout_width="wrap_content"
+            android:layout_height="34dp"
+            android:layout_marginLeft="2dp"
+            android:text="@string/Man_Hotels"
+            android:textSize="14sp" />
+
+        <RadioButton
+            android:id="@+id/Man_spots"
+            android:layout_width="wrap_content"
+            android:layout_height="34dp"
+            android:layout_marginLeft="2dp"
+            android:text="@string/Man_spots"
+            android:textSize="12sp" />
+
+        <RadioButton
+            android:id="@+id/Man_malls"
+            android:layout_width="wrap_content"
+            android:layout_height="33dp"
+            android:layout_marginLeft="2dp"
+            android:text="@string/Man_malls"
+            android:textSize="12sp" />
+
+        <RadioButton
+            android:id="@+id/Man_restaurants"
+            android:layout_width="wrap_content"
+            android:layout_height="37dp"
+            android:layout_marginLeft="2dp"
+            android:text="@string/Man_restaurants"
+            android:textSize="12sp" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="84dp"
+        android:layout_height="32dp"
+        android:layout_marginTop="12dp"
+        android:text="@string/btn"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.74"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/radioGroup" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="191dp"
+            android:layout_height="181dp"
+            android:layout_marginStart="28dp"
+            android:layout_marginTop="52dp"
+            app:layout_constraintEnd_toStartOf="@+id/radioGroup"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/aklan" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="336dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:justificationMode="inter_word"
+            android:text="      Aklan is the oldest province in the Philippines, organized in 1213 by settlers from Borneo as the Minuro it Akean to include what is now Capiz. The capital of Aklan changed location several times. Towards the end of the 14th century, Datu Dinagandan moved the capital to the present site of Batan which was captured in 1399 by Chinese adventurers under Kalantiaw, who forthwith ruled Aklan. In 1433 the son of Kalantiaw, Kalantiaw III laid down a written code of laws now known as the Code of Kalantiaw. The short-lived Kalantiaw dynasty ended when Kalantiaw III was slain in a duel with Datu Manduyog, legitimate successor to Datu Dinagandan. When Manduyog became the new ruler, he moved the capital to Bakan (ancient name of Banga) in 1437. Several datus succeeded Manduyog when Miguel Lopez de Legaspi landed in Batan in 1565, Datu Kabayag was ruling Aklan from what is now the town of Libacac."
+            android:textSize="18sp"
+            app:layout_constraintBottom_toTopOf="@+id/textView1"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.52"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btn" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="333dp"
+            android:layout_height="562dp"
+            android:justificationMode="inter_word"
+            android:text="      Lopez de Legaspi divided the Minuro it Akean into five encomiendas which he distributed among his followers. Those encomiendas were in Mambusao, Baan and Panay. Along with political changes, the Spaniards introduced Christianity and in a short while thousands of Aklanons were baptized. Towns were laid following the Spanish pattern, each organized around a plaza with a church, municipio and school. Roads were carved out of forests to link principal towns. In 1716, the area of the Minuro it Akean was designated a province. But to the dismay of Aklanons it was called Capiz and until Aklan became a province on its own in 1956, the Aklanons never knew rest."
+            android:textSize="18sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.493"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/textView" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

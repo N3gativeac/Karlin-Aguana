@@ -1,0 +1,41 @@
+<?php
+/**
+ * Physiotherapy Lite: Block Patterns
+ *
+ * @package Physiotherapy Lite
+ * @since   1.0.0
+ */
+
+/**
+ * Register Block Pattern Category.
+ */
+if ( function_exists( 'register_block_pattern_category' ) ) {
+
+	register_block_pattern_category(
+		'physiotherapy-lite',
+		array( 'label' => __( 'Physiotherapy Lite', 'physiotherapy-lite' ) )
+	);
+}
+
+/**
+ * Register Block Patterns.
+ */
+if ( function_exists( 'register_block_pattern' ) ) {
+	register_block_pattern(
+		'physiotherapy-lite/banner-section',
+		array(
+			'title'      => __( 'Banner Section', 'physiotherapy-lite' ),
+			'categories' => array( 'physiotherapy-lite' ),
+			'content'    => "<!-- wp:cover {\"url\":\"" . esc_url(get_template_directory_uri()) . "/inc/block-patterns/images/banner.png\",\"id\":5623,\"dimRatio\":0,\"align\":\"full\",\"className\":\"banner-section\"} -->\n<div class=\"wp-block-cover alignfull banner-section\" style=\"background-image:url(" . esc_url(get_template_directory_uri()) . "/inc/block-patterns/images/banner.png)\"><div class=\"wp-block-cover__inner-container\"><!-- wp:columns {\"verticalAlignment\":\"center\",\"align\":\"full\"} -->\n<div class=\"wp-block-columns alignfull are-vertically-aligned-center\"><!-- wp:column {\"verticalAlignment\":\"center\",\"width\":\"25%\"} -->\n<div class=\"wp-block-column is-vertically-aligned-center\" style=\"flex-basis:25%\"></div>\n<!-- /wp:column -->\n\n<!-- wp:column {\"verticalAlignment\":\"center\",\"width\":\"50%\"} -->\n<div class=\"wp-block-column is-vertically-aligned-center\" style=\"flex-basis:50%\"><!-- wp:heading {\"textAlign\":\"center\",\"level\":1,\"textColor\":\"white\"} -->\n<h1 class=\"has-text-align-center has-white-color has-text-color\">TE OBTINUIT UT ADEPTO SATIS SOMNO</h1>\n<!-- /wp:heading -->\n\n<!-- wp:paragraph {\"align\":\"center\",\"textColor\":\"white\"} -->\n<p class=\"has-text-align-center has-white-color has-text-color\">Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:buttons {\"align\":\"center\"} -->\n<div class=\"wp-block-buttons aligncenter\"><!-- wp:button {\"style\":{\"color\":{\"background\":\"#4167f6\"}},\"textColor\":\"white\",\"className\":\"btn\"} -->\n<div class=\"wp-block-button btn\"><a class=\"wp-block-button__link has-white-color has-text-color has-background\" style=\"background-color:#4167f6\">Read More</a></div>\n<!-- /wp:button --></div>\n<!-- /wp:buttons --></div>\n<!-- /wp:column -->\n\n<!-- wp:column {\"verticalAlignment\":\"center\",\"width\":\"25%\"} -->\n<div class=\"wp-block-column is-vertically-aligned-center\" style=\"flex-basis:25%\"></div>\n<!-- /wp:column --></div>\n<!-- /wp:columns --></div></div>\n<!-- /wp:cover -->",
+		)
+	);
+
+	register_block_pattern(
+		'physiotherapy-lite/services-section',
+		array(
+			'title'      => __( 'Services Section', 'physiotherapy-lite' ),
+			'categories' => array( 'physiotherapy-lite' ),
+			'content'    => "<!-- wp:cover {\"overlayColor\":\"white\",\"align\":\"wide\",\"className\":\"article-outer-box\"} -->\n<div class=\"wp-block-cover alignwide has-white-background-color has-background-dim article-outer-box\"><div class=\"wp-block-cover__inner-container\"><!-- wp:heading {\"textAlign\":\"center\",\"level\":4,\"style\":{\"color\":{\"text\":\"#252f3b\"}}} -->\n<h4 class=\"has-text-align-center has-text-color\" style=\"color:#252f3b\">Our Services</h4>\n<!-- /wp:heading -->\n\n<!-- wp:heading {\"textAlign\":\"center\",\"style\":{\"color\":{\"text\":\"#252f3b\"}}} -->\n<h2 class=\"has-text-align-center has-text-color\" style=\"color:#252f3b\">OUR PHYSIOTHERAPY</h2>\n<!-- /wp:heading -->\n\n<!-- wp:columns {\"align\":\"wide\",\"className\":\"article-container\"} -->\n<div class=\"wp-block-columns alignwide article-container\"><!-- wp:column {\"className\":\"article-section\"} -->\n<div class=\"wp-block-column article-section\"><!-- wp:image {\"align\":\"center\",\"id\":5641,\"sizeSlug\":\"large\",\"linkDestination\":\"media\"} -->\n<div class=\"wp-block-image\"><figure class=\"aligncenter size-large\"><img src=\"" . esc_url(get_template_directory_uri()) . "/inc/block-patterns/images/services1.png\" alt=\"\" class=\"wp-image-5641\"/></figure></div>\n<!-- /wp:image -->\n\n<!-- wp:heading {\"textAlign\":\"center\",\"level\":3,\"style\":{\"color\":{\"text\":\"#252f3b\"}}} -->\n<h3 class=\"has-text-align-center has-text-color\" style=\"color:#252f3b\">Services Title 1</h3>\n<!-- /wp:heading --></div>\n<!-- /wp:column -->\n\n<!-- wp:column {\"className\":\"article-section\"} -->\n<div class=\"wp-block-column article-section\"><!-- wp:image {\"align\":\"center\",\"id\":5643,\"sizeSlug\":\"large\",\"linkDestination\":\"media\"} -->\n<div class=\"wp-block-image\"><figure class=\"aligncenter size-large\"><img src=\"" . esc_url(get_template_directory_uri()) . "/inc/block-patterns/images/services2.png\" alt=\"\" class=\"wp-image-5643\"/></figure></div>\n<!-- /wp:image -->\n\n<!-- wp:heading {\"textAlign\":\"center\",\"level\":3,\"style\":{\"color\":{\"text\":\"#252f3b\"}}} -->\n<h3 class=\"has-text-align-center has-text-color\" style=\"color:#252f3b\">Services Title 2</h3>\n<!-- /wp:heading --></div>\n<!-- /wp:column -->\n\n<!-- wp:column {\"className\":\"article-section\"} -->\n<div class=\"wp-block-column article-section\"><!-- wp:image {\"align\":\"center\",\"id\":5644,\"sizeSlug\":\"large\",\"linkDestination\":\"media\"} -->\n<div class=\"wp-block-image\"><figure class=\"aligncenter size-large\"><img src=\"" . esc_url(get_template_directory_uri()) . "/inc/block-patterns/images/services3.png\" alt=\"\" class=\"wp-image-5644\"/></figure></div>\n<!-- /wp:image -->\n\n<!-- wp:heading {\"textAlign\":\"center\",\"level\":3,\"style\":{\"color\":{\"text\":\"#252f3b\"}}} -->\n<h3 class=\"has-text-align-center has-text-color\" style=\"color:#252f3b\">Services Title 3</h3>\n<!-- /wp:heading --></div>\n<!-- /wp:column -->\n\n<!-- wp:column {\"className\":\"article-section\"} -->\n<div class=\"wp-block-column article-section\"><!-- wp:image {\"align\":\"center\",\"id\":5645,\"sizeSlug\":\"large\",\"linkDestination\":\"media\"} -->\n<div class=\"wp-block-image\"><figure class=\"aligncenter size-large\"><img src=\"" . esc_url(get_template_directory_uri()) . "/inc/block-patterns/images/services4.png\" alt=\"\" class=\"wp-image-5645\"/></figure></div>\n<!-- /wp:image -->\n\n<!-- wp:heading {\"textAlign\":\"center\",\"level\":3,\"style\":{\"color\":{\"text\":\"#252f3b\"}}} -->\n<h3 class=\"has-text-align-center has-text-color\" style=\"color:#252f3b\">Services Title 4</h3>\n<!-- /wp:heading --></div>\n<!-- /wp:column -->\n\n<!-- wp:column {\"className\":\"article-section\"} -->\n<div class=\"wp-block-column article-section\"><!-- wp:image {\"align\":\"center\",\"id\":5646,\"sizeSlug\":\"large\",\"linkDestination\":\"media\"} -->\n<div class=\"wp-block-image\"><figure class=\"aligncenter size-large\"><img src=\"" . esc_url(get_template_directory_uri()) . "/inc/block-patterns/images/services5.png\" alt=\"\" class=\"wp-image-5646\"/></figure></div>\n<!-- /wp:image -->\n\n<!-- wp:heading {\"textAlign\":\"center\",\"level\":3,\"style\":{\"color\":{\"text\":\"#252f3b\"}}} -->\n<h3 class=\"has-text-align-center has-text-color\" style=\"color:#252f3b\">Services Title 5</h3>\n<!-- /wp:heading --></div>\n<!-- /wp:column -->\n\n<!-- wp:column {\"className\":\"article-section\"} -->\n<div class=\"wp-block-column article-section\"><!-- wp:image {\"align\":\"center\",\"id\":5647,\"sizeSlug\":\"large\",\"linkDestination\":\"media\"} -->\n<div class=\"wp-block-image\"><figure class=\"aligncenter size-large\"><img src=\"" . esc_url(get_template_directory_uri()) . "/inc/block-patterns/images/services6.png\" alt=\"\" class=\"wp-image-5647\"/></figure></div>\n<!-- /wp:image -->\n\n<!-- wp:heading {\"textAlign\":\"center\",\"level\":3,\"style\":{\"color\":{\"text\":\"#252f3b\"}}} -->\n<h3 class=\"has-text-align-center has-text-color\" style=\"color:#252f3b\">Services Title 6</h3>\n<!-- /wp:heading --></div>\n<!-- /wp:column --></div>\n<!-- /wp:columns --></div></div>\n<!-- /wp:cover -->",
+		)
+	);
+}

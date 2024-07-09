@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".jtagspots">
+
+        <TextView
+            android:id="@+id/test"
+            android:layout_width="600dp"
+            android:layout_height="wrap_content"
+            android:justificationMode="inter_word"
+            android:text="      Taal Volcano, reputed to be the smallest active volcano in the world, is visible at dining establishments and other attractions that are located along the ride on the Aguinaldo highway.
+Aside from relishing the cool weather, taking a moment to have a glimpse of Taal Lake and Volcano from Tagaytay City restaurants, cafes, and hotels has become something of a tradition for returning visitors.
+"
+            android:textSize="10sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.502"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="122dp"
+            android:layout_height="80dp"
+            android:layout_marginStart="65dp"
+            android:layout_marginTop="36dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/taalandlake" />
+
+        //------------------------------------------------------------------------------------------------------------------------
+
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="32dp"
+            android:layout_marginBottom="25dp"
+            android:text="Taal Lake and Volcano"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/test"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toEndOf="@+id/imageView2"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="1.0" />
+
+        <TextView
+            android:id="@+id/test1"
+            android:layout_width="600dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="92dp"
+            android:justificationMode="inter_word"
+            android:text="      A trip to a theme park is part of every child’s fondest memory, so if you’re looking for a fun and memorable experience with the kids, add Sky ranch to your things to do in Tagaytay!
+This entertainment complex has everything you can expect from an amusement park, which includes rides and other attractions that appeal to every age group.
+"
+            android:textSize="10sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.507"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/test" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="122dp"
+            android:layout_height="80dp"
+            android:layout_marginStart="65dp"
+            android:layout_marginTop="12dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/test"
+            app:srcCompat="@drawable/skyranch" />
+
+        //------------------------------------------------------------------------------------------------------------------------
+
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="76dp"
+            android:layout_height="20dp"
+            android:layout_marginStart="32dp"
+            android:layout_marginBottom="25dp"
+            android:text="Sky Ranch"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/test1"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toEndOf="@+id/imageView3"
+            app:layout_constraintTop_toBottomOf="@+id/test"
+            app:layout_constraintVertical_bias="1.0" />
+
+        <TextView
+            android:id="@+id/test2"
+            android:layout_width="600dp"
+            android:layout_height="360dp"
+            android:justificationMode="inter_word"
+            android:text="      Here’s another mansion that’s worth a visit, especially if you’re a jigsaw puzzle enthusiast!
+This museum houses one of the largest collections of finished puzzles in the world, so big that it even earned a Guiness World Record for puzzle collector Georgina Gil-Lacuna in 2012.
+Don’t miss the dazzling 2D and 3D puzzle sets, along with various shapes, sizes, materials, and subject matter. Puzzle reproductions of paintings by world-renowned artists such as Picasso, Degas, and Gaudi are not to be missed.
+"
+            android:textSize="10sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView4" />
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="122dp"
+            android:layout_height="80dp"
+            android:layout_marginStart="65dp"
+            android:layout_marginTop="12dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/test1"
+            app:srcCompat="@drawable/puzzlemansion" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="114dp"
+            android:layout_height="24dp"
+            android:layout_marginStart="32dp"
+            android:layout_marginBottom="25dp"
+            android:text="Puzzle Mansion"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/test2"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toEndOf="@+id/imageView4"
+            app:layout_constraintTop_toBottomOf="@+id/test1"
+            app:layout_constraintVertical_bias="1.0" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

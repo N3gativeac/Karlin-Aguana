@@ -1,0 +1,171 @@
+# Copyright (C) 2015-2021 WEN Themes
+# This file is distributed under the GNU General Public License, version 3 (GPLv3).
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Signify eCommerce\n"
+"Report-Msgid-Bugs-To: https://wenthemes.com/contact/\n"
+"POT-Creation-Date: 2021-04-09 22:53-0400\n"
+"PO-Revision-Date: 2016-12-07 01:05-0500\n"
+"Last-Translator: WEN Themes <info@wenthemes.com>\n"
+"Language-Team: WEN Themes <info@wenthemes.com>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.4.2\n"
+"X-Poedit-KeywordsList: __;_e;_x;esc_html_e;esc_html__;esc_attr_e;esc_attr__;_ex:1,2c;_nx:4c,1,2;"
+"_nx_noop:4c,1,2;_x:1,2c;_n:1,2;_n_noop:1,2;__ngettext_noop:1,2;_c,_nc:4c,1,2\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-Basepath: .\n"
+"X-Textdomain-Support: yes\n"
+"X-Generator: \n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../functions.php:41
+msgid "Header Top Menu"
+msgstr ""
+
+#: ../header.php:27
+msgid "Skip to content"
+msgstr ""
+
+#: ../inc/customizer/theme-options.php:17
+msgid "Header Top Options"
+msgstr ""
+
+#: ../inc/customizer/theme-options.php:23
+msgid "Header Top"
+msgstr ""
+
+#: ../inc/customizer/theme-options.php:33 ../template-parts/header/site-top-bar.php:46
+#: ../template-parts/header/site-top-bar.php:75
+msgid "Search"
+msgstr ""
+
+#: ../inc/customizer/theme-options.php:43
+msgid "Display Date"
+msgstr ""
+
+#: ../inc/customizer/theme-options.php:51
+msgid "Email Us:"
+msgstr ""
+
+#: ../inc/customizer/theme-options.php:54
+msgid "Email Label"
+msgstr ""
+
+#: ../inc/customizer/theme-options.php:64
+msgid "Email"
+msgstr ""
+
+#: ../inc/customizer/theme-options.php:72
+msgid "Call Us:"
+msgstr ""
+
+#: ../inc/customizer/theme-options.php:75
+msgid "Phone Label"
+msgstr ""
+
+#: ../inc/customizer/theme-options.php:85
+msgid "Phone"
+msgstr ""
+
+#: ../inc/customizer/theme-options.php:93
+msgid "Address:"
+msgstr ""
+
+#: ../inc/customizer/theme-options.php:96
+msgid "Address Label"
+msgstr ""
+
+#: ../inc/customizer/theme-options.php:106
+msgid "Address"
+msgstr ""
+
+#: ../inc/customizer/theme-options.php:116
+msgid "Display Cart Link"
+msgstr ""
+
+#: ../inc/customizer/woo-products-showcase.php:13
+msgid "WooCommerce Products Showcase"
+msgstr ""
+
+#: ../inc/customizer/woo-products-showcase.php:22
+msgid "Enable on"
+msgstr ""
+
+#: ../inc/customizer/woo-products-showcase.php:33
+msgid "Background Image"
+msgstr ""
+
+#: ../inc/customizer/woo-products-showcase.php:40
+#: ../template-parts/woo-products-showcase/display-products.php:35
+msgid "Exclusive Merch"
+msgstr ""
+
+#: ../inc/customizer/woo-products-showcase.php:42
+msgid "Headline"
+msgstr ""
+
+#: ../inc/customizer/woo-products-showcase.php:52
+msgid "Sub headline"
+msgstr ""
+
+#: ../inc/customizer/woo-products-showcase.php:64
+msgid "Save and refresh the page if No. of Products is changed. Set -1 to display all"
+msgstr ""
+
+#: ../inc/customizer/woo-products-showcase.php:69
+msgid "No of Products"
+msgstr ""
+
+#: ../inc/customizer/woo-products-showcase.php:77
+#: ../template-parts/woo-products-showcase/display-products.php:78
+msgid "Go to Shop Page"
+msgstr ""
+
+#: ../inc/customizer/woo-products-showcase.php:80
+msgid "Button Text"
+msgstr ""
+
+#: ../inc/customizer/woo-products-showcase.php:92
+msgid "Button Link"
+msgstr ""
+
+#: ../inc/customizer/woo-products-showcase.php:101
+msgid "Open Link in New Window/Tab"
+msgstr ""
+
+#: ../inc/customizer/woocommerce.php:30
+msgid "Layout for WooCommerce Pages"
+msgstr ""
+
+#: ../inc/customizer/woocommerce.php:31
+msgid "WooCommerce Layout"
+msgstr ""
+
+#: ../inc/customizer/woocommerce.php:35
+msgid "Right Sidebar ( Content, Primary Sidebar )"
+msgstr ""
+
+#: ../inc/customizer/woocommerce.php:36
+msgid "No Sidebar: Full Width"
+msgstr ""
+
+#: ../inc/customizer/woocommerce.php:142
+msgid "View your shopping cart"
+msgstr ""
+
+#: ../inc/customizer/woocommerce.php:222
+msgid "This is where you can add new products to your store."
+msgstr ""
+
+#: ../template-parts/header/site-top-bar.php:19
+msgid "Top Bar"
+msgstr ""
+
+#: ../template-parts/navigation/navigation-header-top.php:10
+msgid "Top Menu"
+msgstr ""

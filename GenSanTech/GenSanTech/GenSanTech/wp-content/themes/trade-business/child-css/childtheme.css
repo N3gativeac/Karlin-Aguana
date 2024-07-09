@@ -1,0 +1,510 @@
+.btn-2
+{
+    border-radius: 0px;
+}
+.btn-2:hover
+{
+	color:#fff;
+}
+.home5-hero-sec .section-title-wraper .section-title-2 
+{
+	color: #fff;
+    text-shadow: 0px 0px 0px rgb(0 0 0 / 30%);
+    margin: 0px 0px 0px 0px;
+    font-family: "Roboto", Sans-serif;
+    font-size: 110px;
+    font-weight: 900;
+    text-transform: uppercase;
+    line-height: 120px;
+} 
+.home5-hero-sec .section-title-wraper p, .btn-2
+{
+	color:#fff;
+}
+.banner-text
+{
+	text-align: left;
+    width: 800px;
+}
+ 
+.abt-fb
+{
+     padding-right: 0px;  
+     padding-left: 0px;
+}
+.about .abouts2:before
+{
+	background-color: #000 !important;
+}
+
+
+.about .about-box i {
+    margin-top: -18px;
+    margin-left: -18px;
+    font-size: 36px;
+    border: 1px solid;
+    width: 100px;
+    height: 100px;
+    border-radius: 10%;
+    line-height: 100px;
+    font-size: 36px;
+    display: inline-block;
+    margin-bottom: 30px;
+    transition: all 0.5s ease 0s;
+    -ms-transition: all 0.5s ease 0s;
+    -webkit-transition: all 0.5s ease 0s;
+    -moz-transition: all 0.5s ease 0s;
+    -o-transition: all 0.5s ease 0s;
+    color: #fff;
+    position: relative;
+}
+.about .about-box i:hover
+{
+	border:5px solid;
+}
+.services-5 .icon-box
+{
+    border: 2px solid #d3d3d3;
+    padding: 20px;
+    background: rgba(255,255,255,0.75) none repeat scroll 0 0;
+    margin-top: 20px;
+}
+.services-5 .icon-box i 
+{
+	box-shadow: 5px 5px 0 hsl(0deg 0% 0% / 10%);
+    color: #ffffff !important;
+    font-weight: 600;
+    height: 60px;
+    text-align: center;
+    width: 60px;
+    position: relative;
+    margin-top: 0px;
+	font-size: 30px;
+    padding: 10px;
+}
+.services-5 .icon-box i:hover  {
+    border-radius: 50%;
+    transform: translate(0px, 3px);
+    -ms-transform: translate(0px, 3px);
+    -webkit-transform: translate(0px, 3px);
+    -moz-transform: translate(0px, 3px);
+    -o-transform: translate(0px, 3px);
+    transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+}
+.services-5 .icon-box h4, .services-5 .icon-box p  {
+    margin-left: 80px;
+}
+.services-5
+{
+	padding-top:0px;
+}
+.portfolio-5 .box-content {
+    position: relative;
+    background-color: transparent;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: -1.21px 6.894px 15px 0px rgb(0 0 0 / 7%);
+    margin: -10px auto 0px;
+    width: 100%;  
+    transition: all 0.5s;
+}
+.cta-5 h3
+{
+	font-size: 18px;
+    font-weight: 600;
+	letter-spacing: 0px;
+}
+.cta-5 h2
+{
+	font-size: 42px;
+    position: relative;
+    margin-bottom: 10px;
+    line-height: 52px;
+    margin-top: 0;
+}
+.cta-5
+{
+	background-attachment: fixed;
+	padding:60px;
+}
+  
+.blog-5 .btn-wraper .read-more-btn {
+    border-radius: 0;
+}
+.section-title-5 .separator ul li {
+    width: 16px;
+    height: 8px;
+    border-radius: 0;
+}
+.section-title-5 .separator ul::before, .section-title-5 .separator ul::after {
+    height: 3px;
+}
+.cta-6 .btn-2 {
+    display: inline-block;
+    width: auto;
+    
+}
+.cta-6  
+{
+	text-align:center;
+}
+.cta-6 p {
+    max-width: 100%;
+	 color: #000;
+}
+.cta-6 h2 {
+    color: #000;
+}
+@media only screen and (max-width: 600px) {
+ .cta-5 h2 {
+    font-size: 20px;
+ }
+.cta-5 h3 {
+    font-size: 25px;
+    line-height: 40px;
+}}
+
+ 
+.our-team img{
+    width: 100%;
+    height: auto;
+}
+.our-team .team-content{
+    height: 120px;
+    background: #ea8828;
+    position: relative;
+    top: -18px;
+    left: 0;
+    transform: rotate(7deg) skew(7deg);
+}
+.our-team .team-info{
+    width: 100%;
+    text-align: center;
+    padding: 39px 0 0;
+    position: absolute;
+    transform: rotate(-5deg) skew(-5deg);
+}
+.our-team .title{
+    font-size: 25px;
+    color: #fff;
+    margin: 0;
+}
+.our-team .post{
+    font-size: 14px;
+    color: #fff;
+}
+.our-team .icon{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: -50px;
+    right: 0;
+}
+.our-team .icon li{
+    display: inline-block;
+    float: left;
+}
+.our-team .icon li a{
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    background: #ea8828;
+    text-align: center;
+    font-size: 18px;
+    color: #fff;
+    margin-right: 2px;
+    transition: all 0.3s ease 0s;
+}
+.our-team .icon li:nth-child(2n) a{
+    position: relative;
+    bottom: -13px;
+}
+.our-team .icon li:last-child a{
+    margin-right: 0;
+}
+.our-team .icon li a:hover{
+    background: #161616;
+}
+@media only screen and (max-width: 990px){
+    .our-team{ margin-bottom: 30px; }
+}
+.team-pad
+{
+	margin-bottom:50px;
+}
+ 
+.about {
+    position: relative;
+    margin-top: 0px !important;
+    padding-bottom: 0;
+}
+ 
+.home5-hero-sec .section-title-wraper p
+{
+	margin-top:40px;
+}
+.about .about-box:before
+{
+	background-color: #fff !important;
+	 
+} 
+.about .about-box .about-box-title 
+{
+	color: #000; 
+}
+.about .about-box p
+{
+	color: #838383; 
+}
+.about .about-box {
+    
+    padding: 0px 35px 70px 0px;
+}
+section.about
+{
+	padding-top: 150px !important;
+    padding-bottom:0px !important;
+}
+.serviceBox{
+    color: #888;
+    background-color: #fff;
+    text-align: center;
+    padding: 20px;
+    border-radius: 0 40px;
+}
+.serviceBox .service-icon{
+    color: #fff;
+    background: #f10e00;
+    font-size: 50px;
+    line-height: 110px;
+    width: 110px;
+    height: 110px;
+    margin: 0 auto 30px;
+    border-radius: 50px 0;
+    position: relative;
+    z-index: 1;
+}
+.serviceBox .service-icon:before{
+    content: '';
+    background: #f10e00;
+    border-radius: 50%;
+    position: absolute;
+    left: 10px;
+    bottom: 10px;
+    top: 10px;
+    right: 10px;
+    z-index: -1;
+}
+.serviceBox .title{
+    color: #000;
+    font-size: 20px;
+    font-weight: 600;
+    margin: 0 0 7px;
+}
+.serviceBox .description{
+    font-size: 15px;
+    line-height: 22px;
+    letter-spacing: 0.5px;
+	color:#838383;
+}
+
+.serviceBox.orange .title{ color: #f96407; }
+@media only screen and (max-width: 990px){
+    .serviceBox{ margin: 0 0 0px; }
+}
+.home5-hero-sec .section-title-wraper {
+    padding: 100px 0px 222px 0px;
+} 
+.serviceBox .service-icon span
+{
+	color: #fff !important;
+    font-size: 50px !important;
+}
+.our-team{
+    text-align: center;
+}
+.our-team .pic{
+    position: relative;
+    overflow: hidden;
+}
+.our-team .pic img{
+    width: 100%;
+    height: auto;
+    transition: all 0.2s ease 0s;
+}
+.our-team:hover .pic img{
+    transform: translateY(15px);
+}
+.our-team .social_media_team{
+    width: 100%;
+    position: absolute;
+    bottom: -100%;
+    padding: 25px;
+    background-color:rgba(59, 204, 161, 0.9);
+    transition: all 0.35s ease 0s;
+}
+.our-team:hover .social_media_team{
+    bottom: 0px;
+}
+.our-team .description{
+    margin-top: 10px;
+    color: #fff;
+}
+
+.our-team .team-prof{
+    margin-top: 10px;
+}
+.our-team .post-title {
+    text-transform: capitalize;
+    color:#424242;
+    transition: all 0.2s ease 0s;
+	font-size:20px;
+	margin-top: 30px;
+}
+ 
+.our-team .post{
+    color:#3bcca1;
+    font-size: 18px;
+}
+@media screen and (max-width: 990px){
+    .our-team{
+        margin-bottom: 30px;
+    }
+}
+.portfolio-5 .box-content
+{
+	background-color: #ff0101;
+	
+}
+.box-content h5, .box-content h5:hover
+{
+	color: #ffffff !important;
+}
+
+.testimonial-bg{
+    background: linear-gradient(to top, #1e130c , #9a8478);
+}
+.testimonial{
+    margin: 0 15px;
+}
+.testimonial .testimonial-profile{
+    float: left;
+    width: 25%;
+}
+.testimonial .testimonial-profile img{
+    width: 100%;
+    height: auto;
+}
+.tb .testimonial .testimonial-content{
+    padding-left: 30%;
+	background-color:none !important;
+}
+.testimonial .testimonial-title{
+    margin-bottom:0;
+	color:#000;
+	font-size:20px;
+}
+.testimonial .testimonial-title a{
+    font-size:15px;
+    color: #fff;
+    letter-spacing:3px;
+    display: block;
+    text-transform: uppercase;
+    margin-bottom:4px;
+}
+.testimonial .testimonial-post{
+    display:block;
+    color: #9c9c9c;
+    margin-bottom:10px;
+}
+.testimonial .testimonial-post:after{
+    content:"";
+    width:100%;
+    display: block;
+    margin:10px 0 auto;
+    border-top:1px solid #9c9c9c;
+}
+.testimonial .testimonial-description{
+    color:#9c9c9c;
+    font-size: 14px;
+    line-height:23px;
+}
+ 
+ 
+.owl-pagination{
+    margin-top: 40px;
+}
+.owl-theme .owl-controls .owl-page.active span, .owl-theme .owl-controls.clickable .owl-page:hover span{
+    background:#000;
+    border:3px solid #fff;
+}
+@media only screen and (max-width: 767px) {
+    .testimonial{
+        text-align: center;
+        padding-bottom: 5px;
+    }
+    .testimonial .testimonial-content{
+        padding: 0;
+    }
+    .testimonial .testimonial-profile{
+        float:none;
+        width: 30%;
+        margin: 0 auto;
+        padding: 0;
+    }
+	.tb .testimonial .testimonial-content
+	{
+		padding-left: 0;
+	}
+	.home5-hero-sec .section-title-wraper .section-title-2
+	{
+		    margin: 0px 20px 0px;
+			line-height: 40px !important;
+	}
+	.home5-hero-sec .section-title-wraper p
+	{
+		 
+		margin: 0px 20px 30px;
+	}
+	.btn-2 {
+		color: #fff;
+		padding: 10px 25px 10px 25px;
+		margin-left: 20px;
+	}
+	.tradebusi
+	{
+		padding:0px 40px;
+	}
+	.about .about-box
+	{
+		    padding: 0px 0px 40px 0px;
+	}
+	.blog-5
+	{
+		padding-top: 0;
+	}
+	.home5-hero-sec {
+    height: 80vh;
+}
+	.blog-5 .blog-item {
+    padding: 0px 10px;
+	}
+}
+.owl-carousel .owl-nav .owl-next, .owl-carousel .owl-nav .owl-prev 
+{
+	display:none;
+}
+.owl-dots
+{
+	display:block
+}
+.testimonials-5 .owl-dot.active {
+    background-color: #000 !important;
+}
+ 

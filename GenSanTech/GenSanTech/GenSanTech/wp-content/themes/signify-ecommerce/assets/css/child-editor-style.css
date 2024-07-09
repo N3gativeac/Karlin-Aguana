@@ -1,0 +1,321 @@
+/*
+Theme Name: Signify eCommerce
+Description: Used to style the TinyMCE editor.
+*/
+
+/**
+ * Table of Contents
+ *
+ * 1.0 - Body
+ * 2.0 - Typography
+ * 3.0 - Elements
+ * 4.0 - Padding/Margin
+ * 5.0 - Forms
+ * 6.0 - Navigation
+ *   6.1 - Links
+ * 7.0 - Alignments
+ * 8.0 - Posts and pages
+ * 9.0 - Media
+ * 10.0 - Captions
+ * 11.0 - Galleries
+ * 12.0 - Media Queries
+ *    12.1 - >= 1024px
+ *	  12.2 - >= 1200px
+ *	  12.3 - >= 1366px
+ *	  12.4 - >= 1600px
+ * 14.0 - RTL
+ * 15.0 - Colors
+ */
+
+
+/**
+ * 1.0 - Body
+ */
+
+body {
+	margin: 30px;
+	max-width: 968px;
+}
+
+
+/**
+ * 2.0 - Typography
+ */
+
+
+/**
+ * 8.0 - Posts and pages
+ */
+
+h1,
+.mce-content-body h1 {
+	font-size: 32px;
+	font-size: 2rem;
+	line-height: 1.33;
+	margin-top: 0.9655172413793103em;
+	margin-bottom: 0.603448275862069em;
+}
+
+h2,
+.mce-content-body h2 {
+	font-size: 28px;
+	font-size: 1.75rem;
+	line-height: 1.43;
+	margin-top: 1.166666666666667em;
+	margin-bottom: 0.7291666666666667em;
+}
+
+h3,
+.mce-content-body h3 {
+	font-size: 24px;
+	font-size: 1.5rem;
+	line-height: 1.36;
+	margin-top: 1.555555555555556em;
+	margin-bottom: 0.9722222222222222em;
+}
+
+h4,
+.mce-content-body h4 {
+	font-size: 22px;
+	font-size: 1.375rem;
+}
+
+h5,
+.mce-content-body h5 {
+	font-size: 18px;
+	font-size: 1.125rem;
+}
+
+h6,
+.mce-content-body h6 {
+	font-size: 16px;
+	font-size: 1rem;
+}
+
+h4,
+.mce-content-body h4,
+h5,
+.mce-content-body h5,
+h6,
+.mce-content-body h6 {
+	line-height: 1.25;
+	margin-top: 2em;
+	margin-bottom: 1.25em;
+}
+
+h1:first-child,
+.mce-content-body h1,
+h2:first-child,
+.mce-content-body h2,
+h3:first-child,
+.mce-content-body h3,
+h4:first-child,
+.mce-content-body h4,
+h5:first-child,
+.mce-content-body h5,
+h6:first-child,
+.mce-content-body h6:first-child  {
+	margin-top: 0;
+}
+
+/**
+ * IE8 and earlier will drop any block with CSS3 selectors.
+ * Do not combine these styles with the next block.
+ */
+
+/**
+ * 12.0 - Media Queries
+ */
+
+/**
+ * Does the same thing as <meta name="viewport" content="width=device-width">,
+ * but in the future W3C standard way. -ms- prefix is required for IE10+ to
+ * render responsive styling in Windows 8 "snapped" views; IE10+ does not honor
+ * the meta tag. See https://core.trac.wordpress.org/ticket/25888.
+ */
+@-ms-viewport {
+	width: device-width;
+}
+
+@viewport {
+	width: device-width;
+}
+
+/**
+ * 12.1 - >= 1024px
+ */
+
+@media screen and (min-width: 64em) {
+	blockquote.alignleft,
+	blockquote.alignright {
+	    width: 52%;
+	}
+
+	h1,
+	.mce-content-body h1 {
+		font-size: 36px;
+		font-size: 2.25rem;
+	}
+
+	h2,
+	.mce-content-body h2 {
+		font-size: 32px;
+		font-size: 2rem;
+	}
+
+	h3,
+	.mce-content-body h3 {
+		font-size: 28px;
+		font-size: 1.75rem;
+	}
+
+	h4,
+	.mce-content-body h4 {
+		font-size: 24px;
+		font-size: 1.5rem;
+	}
+
+	h5,
+	.mce-content-body h5 {
+		font-size: 22px;
+		font-size: 1.375rem;
+	}
+
+	h6,
+	.mce-content-body h6 {
+		font-size: 18px;
+		font-size: 1.125rem;
+	}
+}
+
+
+/**
+ * 12.2 - >= 1366px
+ */
+
+@media screen and (min-width: 85.375em) {
+ 	h1,
+ 	.mce-content-body h1 {
+ 		font-size: 42px;
+		font-size: 2.625rem;
+ 	}
+
+ 	h2,
+ 	.mce-content-body h2 {
+ 		font-size: 36px;
+ 		font-size: 2.25rem;
+ 	}
+
+ 	h3,
+ 	.mce-content-body h3 {
+ 		font-size: 32px;
+ 		font-size: 2rem;
+ 	}
+
+ 	h4,
+ 	.mce-content-body h4 {
+ 		font-size: 28px;
+ 		font-size: 1.75rem;
+ 	}
+
+ 	.button,
+ 	input[type="button"],
+ 	input[type="reset"],
+ 	input[type="submit"] {
+ 		font-size: 15px;
+ 		font-size: 0.9375rem;
+ 		padding: 15px 35px 14px;
+ 	}
+
+ 	caption,
+ 	th,
+ 	td {
+ 	    padding: 0.667em 1em;
+ 	}
+}
+
+
+/**
+ * 12.3 - >= 1600px
+ */
+
+@media screen and (min-width: 100em) {
+	body {
+	    font-size: 21px;
+	    font-size: 1.3125rem;
+	}
+
+	h1,
+	.mce-content-body h1 {
+		font-size: 58px;
+		font-size: 3.625rem;
+	}
+
+	h2,
+	.mce-content-body h2 {
+		font-size: 48px;
+		font-size: 3rem;
+	}
+
+	h3,
+	.mce-content-body h3 {
+		font-size: 36px;
+		font-size: 2.25rem;
+	}
+
+	h4,
+	.mce-content-body h4 {
+		font-size: 28px;
+		font-size: 1.75rem;
+	}
+
+	h5,
+	.mce-content-body h5 {
+		font-size: 24px;
+		font-size: 1.5rem;
+	}
+}
+
+
+/**
+ * 14.0 - RTL
+ */
+
+.rtl blockquote {
+	padding: 0 1.263157895em 0 0;
+}
+
+.rtl blockquote > ul,
+.rtl blockquote > ol {
+	margin-right: 1.5em;
+	margin-left: auto;
+}
+
+.rtl table th,
+.rtl .mce-item-table th,
+.rtl .mce-item-table td,
+.rtl table caption {
+	text-align: right;
+}
+
+.rtl ul,
+.rtl ol {
+	margin: 0 1.75em 1.5em 0;
+}
+
+.rtl li > ul,
+.rtl li > ol {
+	margin-bottom: 0;
+}
+
+
+.mce-container-body .mce-content-body a:not(.more-link):not(.button):not(button):hover,
+.mce-container-body .mce-content-body a:not(.more-link):not(.button):not(button):focus,
+a:not(.more-link):not(.button):not(button):hover,
+a:not(.more-link):not(.button):not(button):focus {
+	color: #959595;
+}
+
+.wp-block-table tr:first-child td {
+    border-bottom: 1px solid #e6e6e6;
+}

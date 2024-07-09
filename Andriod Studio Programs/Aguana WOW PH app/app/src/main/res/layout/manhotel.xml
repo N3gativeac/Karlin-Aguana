@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+    tools:context=".jmanhotel">
+
+        <TextView
+            android:id="@+id/test"
+            android:layout_width="348dp"
+            android:layout_height="wrap_content"
+            android:justificationMode="inter_word"
+            android:text="      We booked here during summer (May 2015), and we got the hotel rate at promo price. The staff were amazing. everyone was friendly which adds to our pleasant stay at this hotel. Only problem was the mosquitos on the first day but it was gone after we stayed overnight. Everything was pleasant after that. Stayed here for two nights-3days. and I can say that I will come back here and will also recommend this to my friends and family."
+            android:textSize="10sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.502"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="122dp"
+            android:layout_height="80dp"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="48dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/bluebamboojotel" />
+
+        //------------------------------------------------------------------------------------------------------------------------
+
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginBottom="24dp"
+            android:text="Blue Bamboo Hotel"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/test"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toEndOf="@+id/imageView2"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="1.0" />
+
+        <TextView
+            android:id="@+id/test1"
+            android:layout_width="348dp"
+            android:layout_height="wrap_content"
+            android:justificationMode="inter_word"
+            android:text="      This hostel is for groups who want to save money on their accomdation or even solo backpacker like me! I never felt alone during my stay here. Cheap but above expectations. It's quite a walk from the beach but it's really accessible and they have provisioned lockers so you can bring your own padlocks to secure your belongings. Staff are friendly and even the owners will help you out enjoy Boracay. Will bring my friends here when I get back. 😃"
+            android:textSize="10sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.507"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView3" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="122dp"
+            android:layout_height="80dp"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="12dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/test"
+            app:srcCompat="@drawable/chilouthostel" /><![CDATA[
+
+
+        //------------------------------------------------------------------------------------------------------------------------
+
+
+        " as it reminded me of my granny house decades ago. The airconditioner was so loud. I was actually fine with it but my girlfriend felt uneasy to use the shower room as it looked old. The bed was abit dusty, too. Luckily it's not all bad. The location itself is a plus point. Though boat station 3 is not as captivating as other places, but I was amazed by the picturesque view and calmness of the beach in front of the hotel the next morning. It was so comfortable. Tips: You can try to have dinner at "The Tree House Hotel" beside de Mario hotel, it's owned by the same owner, the menu is the same with de Mario Hotel's, but the atmosphere is nice. If you want it to be private, you can even sit outside. It might be quite dimmed but it's romantic. Ask the friendly staff to set up the table for you~"
+            android:textSize="10sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.507"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/test2" />
+
+
+
+
+
+
+
+
+
+
+
+        ]]>
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginBottom="24dp"
+            android:text="Chill Out Hostel"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/test1"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toEndOf="@+id/imageView3"
+            app:layout_constraintTop_toBottomOf="@+id/test"
+            app:layout_constraintVertical_bias="1.0" />
+
+        <TextView
+            android:id="@+id/test2"
+            android:layout_width="348dp"
+            android:layout_height="400dp"
+            android:justificationMode="inter_word"
+            android:text="      It was my first day in Boracay and by the time I reached there it's already late. Basically I just needed a place to sleep. Upon arrival I was confused because I didn't know where to check in. It's actually located beside the restaurant cashier, in a quite empty room. Sometimes there is no people in it, just go to restaurant cashier and ask. The hotel room was old...most of the things were so "
+            android:textSize="10sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.507"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView4" />
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="122dp"
+            android:layout_height="80dp"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="12dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/test1"
+            app:srcCompat="@drawable/damariohotel" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginBottom="24dp"
+            android:text="Da Mario Hotel"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/test2"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toEndOf="@+id/imageView4"
+            app:layout_constraintTop_toBottomOf="@+id/test1"
+            app:layout_constraintVertical_bias="1.0" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

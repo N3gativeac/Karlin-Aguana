@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context=".CaviteSpotJAVA">
+
+        <TextView
+            android:id="@+id/txtHotel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:text="Cavite Tourist Spots"
+            android:textSize="30sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <RadioGroup
+            android:id="@+id/radioGroup"
+            android:layout_width="352dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txtHotel">
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="107dp"
+                android:layout_height="79dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="15dp"
+                app:srcCompat="@drawable/malibiclibic" />
+
+            <RadioButton
+                android:id="@+id/Spot1"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:layout_marginLeft="10dp"
+                android:checked="true"
+                android:text="Malibiclibic Falls" />
+
+            <TextView
+                android:id="@+id/txtdeschotel1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="10dp"
+                android:justificationMode="inter_word"
+                android:text="          For many of us, it comes as a total surprise to hear that Cavite hides waterfalls. But yes, it has several of them tucked on its remote landscapes. One of which is the picturesque Malibiclibic Falls. It’s now one of the most frequented Cavite tourist attractions." />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="107dp"
+                android:layout_height="79dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="15dp"
+                app:srcCompat="@drawable/cabag" />
+
+            <RadioButton
+                android:id="@+id/Spot2"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:text="Cabag Cave" />
+
+            <TextView
+                android:id="@+id/txtdeschotel2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="10dp"
+                android:justificationMode="inter_word"
+                android:text="          Cabag Cave is one of the hidden tourist spots in Cavite although it’s the most popular cave in the province. It has a big opening with a charming waterfall gushing out from its mouth. You can swim on the waterfall’s refreshing pool." />
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="107dp"
+                android:layout_height="79dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="15dp"
+                app:srcCompat="@drawable/pico" />
+
+            <RadioButton
+                android:id="@+id/Spot3"
+                android:layout_width="match_parent"
+                android:layout_height="33dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:text="Pico de Loro" />
+
+            <TextView
+                android:id="@+id/txtdeschotel3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="10dp"
+                android:justificationMode="inter_word"
+                android:text="          Dubbed as the “Parrot’s Peak,” Pico De Loro is one of the hiking tourist spots in Cavite. From a vantage point, it does resemble the shape of a parrot’s beak, thus, the name. It’s up to you though whether you view it as such once you see it. It is also Cavite’s highest point and it takes a challenging ascent to reach its peak." />
+
+        </RadioGroup>
+
+        <EditText
+            android:id="@+id/SpotBulacanDays"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:ems="10"
+            android:gravity="center"
+            android:hint="@string/SpotBulacanDays"
+            android:inputType="number"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/radioGroup" />
+
+        <EditText
+            android:id="@+id/SpotBulacanGuests"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:ems="10"
+            android:gravity="center"
+            android:hint="@string/SpotBulacanGuests"
+            android:inputType="numberDecimal"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/SpotBulacanDays" />
+
+        <Button
+            android:id="@+id/btnButacanSpot"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="28dp"
+            android:text="@string/btnButacanSpot"
+            android:textSize="24sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/SpotBulacanGuests" />
+
+
+
+    </android.support.constraint.ConstraintLayout>
+</ScrollView>

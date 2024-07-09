@@ -1,0 +1,15 @@
+{
+    "name": "hasthemes/just-tables",
+    "type": "wordpress-plugin",
+    "license": "GPL-2.0-or-later",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "JustTables\\": "includes/"
+        },
+        "files": [
+            "includes/functions.php",
+            "includes/ajax-actions.php"
+        ]
+    }
+}

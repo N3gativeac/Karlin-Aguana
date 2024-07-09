@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context=".CebuSpotJAVA">
+
+        <TextView
+            android:id="@+id/txtHotel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:text="Cebu Tourist Spots"
+            android:textSize="30sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <RadioGroup
+            android:id="@+id/radioGroup"
+            android:layout_width="352dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txtHotel">
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="107dp"
+                android:layout_height="79dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="15dp"
+                app:srcCompat="@drawable/leah" />
+
+            <RadioButton
+                android:id="@+id/Spot1"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:layout_marginLeft="10dp"
+                android:checked="true"
+                android:text="Cebu Taoist Temple" />
+
+            <TextView
+                android:id="@+id/txtdeschotel1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="10dp"
+                android:justificationMode="inter_word"
+                android:text="          Let’s start within the city area. First off, we have Cebu Taoist Temple in Beverly Hills Subdivision, Cebu City. The Chinese Taoism community built this Chinese style architecture temple in 1972.
+
+This temple had become popular because of its artistic structures. Even non-believers of the Taoism religion pay visit to the place." />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="107dp"
+                android:layout_height="79dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="15dp"
+                app:srcCompat="@drawable/sirao" />
+
+            <RadioButton
+                android:id="@+id/Spot2"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:text="Temple of Leah" />
+
+            <TextView
+                android:id="@+id/txtdeschotel2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="10dp"
+                android:justificationMode="inter_word"
+                android:text="           Temple of Leah which is along Cebu Transcentral highway. Teodorico Soriano Adarna built this temple in 2012.
+
+The temple is a symbol of his undying love for his wife of 53 years, Leah Villa Albino-Adarna. The temple has 24 chambers including a museum, an art gallery and a library." />
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="107dp"
+                android:layout_height="79dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="15dp"
+                app:srcCompat="@drawable/taoist" />
+
+            <RadioButton
+                android:id="@+id/Spot3"
+                android:layout_width="match_parent"
+                android:layout_height="33dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:text="Sirao Flower Garden" />
+
+            <TextView
+                android:id="@+id/txtdeschotel3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="10dp"
+                android:justificationMode="inter_word"
+                android:text="          Heading to the more elevated spot is in the Busay area which is the Sirao Flower Garden. Going there is like experiencing the Netherlands, thus this tourist attraction is commonly called, “The Little Amsterdam”." />
+
+        </RadioGroup>
+
+        <EditText
+            android:id="@+id/SpotBulacanDays"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:ems="10"
+            android:gravity="center"
+            android:hint="@string/SpotBulacanDays"
+            android:inputType="number"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/radioGroup" />
+
+        <EditText
+            android:id="@+id/SpotBulacanGuests"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:ems="10"
+            android:gravity="center"
+            android:hint="@string/SpotBulacanGuests"
+            android:inputType="numberDecimal"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/SpotBulacanDays" />
+
+        <Button
+            android:id="@+id/btnButacanSpot"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="28dp"
+            android:text="@string/btnButacanSpot"
+            android:textSize="24sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/SpotBulacanGuests" />
+
+
+
+    </android.support.constraint.ConstraintLayout>
+</ScrollView>

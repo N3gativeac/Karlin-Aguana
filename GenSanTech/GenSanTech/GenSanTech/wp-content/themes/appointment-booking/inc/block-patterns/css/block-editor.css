@@ -1,0 +1,118 @@
+.banner-section p, .banner-section .block-editor-rich-text__editable.wp-block-button__link{ 
+  font-family: 'Muli', sans-serif !important;
+}
+.banner-section h1, .article-outer-box h5, .article-outer-box h2, .article-outer-box h3, .article-outer-box h4, .article-outer-box .block-editor-rich-text__editable.wp-block-button__link{ 
+  font-family: 'Raleway', sans-serif !important;
+}
+.banner-section,.article-outer-box, .article-container{
+  width: auto;
+  height: auto;
+}
+/*Banner section*/
+.banner-section .wp-block-column.is-vertically-aligned-center {
+  position: relative;
+  top: 50%;
+  left: 10%;
+  padding-left: 15px;
+}
+.banner-section h1 {
+  border-left: solid 3px #3b82ea;
+  padding: 0px 0px 0px 10px;
+  font-weight: 900;
+  font-size: 42px;
+}
+.banner-section p {
+  margin: 15px 0 20px 0 !important;
+  font-size: 15px !important;
+}
+.banner-section .btn{
+  padding: 0 !important;
+}
+.banner-section .btn a{
+  border: none !important;
+}
+.banner-section .btn a:hover{
+  background: #fff !important;
+  color: #ff5e6b !important;
+  border: 1px solid !important;
+}
+/*Article section*/
+.article-container .wp-block-cover .article-section .block-editor-block-list__block{
+  min-height: 150px !important; 
+  height: 80% !important; 
+}
+.article-section .editor-styles-wrapper h4{
+  margin-top: 0 !important;
+}
+.article-container .wp-block-cover{
+  height: 80% !important;
+}
+.article-outer-box{
+  margin-top: 20px;
+}
+.article-container {
+  margin: 0 auto !important;
+  max-width: 1140px !important;
+  margin-top: 4em !important;
+}
+.wp-block-cover.has-background-dim.article-section {
+  min-height: 100px; 
+}
+.article-outer-box figure.aligncenter.size-large{
+  border: none;
+}
+.article-outer-box h5{
+  letter-spacing: 3px;
+  margin: 0 0 10px !important;
+  font-size: 14px;
+  font-weight: bold;
+  font-family: 'Muli', sans-serif; 
+}
+.article-outer-box h2 {
+  margin: 0 0 10px !important;
+  font-size: 30px;
+  border-bottom: solid 3px #3b82ea;
+  display: inline;
+  padding: 0px 0px 5px 0px !important;
+}
+.article-outer-box h3 {
+  font-size: 25px;
+}
+.article-outer-box p {
+  line-height: 1.5 !important;
+}
+.article-outer-box .service-btn a:hover{
+  background: #fff !important;
+  color: #ff5e6b !important;
+  border: 1px solid !important;
+}
+.article-outer-box h4{
+  font-size: 15px !important;
+  margin: 0 0 15px !important;
+}
+@media screen and (max-width:720px) {
+  .banner-section .wp-block-column.is-vertically-aligned-center {
+    position: static;
+    text-align: center;
+  }
+  .banner-section h1{
+    text-align: center;
+    border: none; 
+    font-size: 30px;
+    padding: 0px;   
+  }
+  .banner-section p, .article-outer-box, .article-outer-box h5, .article-outer-box h2, .article-outer-box h3{
+    text-align: center;
+  }
+  .article-outer-box h2{
+    font-size: 25px;
+  }
+  .article-outer-box p {
+    margin: 10px 45px 15px !important;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1000px){
+  .article-outer-box p {
+    margin-right: 30px !important;
+  }
+}

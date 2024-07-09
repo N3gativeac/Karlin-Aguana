@@ -1,0 +1,100 @@
+.banner-section h1, .banner-section p, .trending-products h2, .wooproducts-categories li a, .banner-section .wp-block-button__link, .trending-products li .wc-block-grid__product-title, .trending-products li .wc-block-grid__product-price.price, .trending-products .wc-block-grid__product-add-to-cart .wp-block-button__link, .trending-products .wc-block-grid__product-onsale{
+  font-family: 'Open Sans', sans-serif;
+}
+
+/*----- Product Categories -----*/
+.wooproducts-categories li{
+  border-bottom: solid 1px #ddd;
+  margin: 0 !important;
+  padding-left: 60px; 
+}
+.wooproducts-categories {
+  overflow-y: scroll;
+  height: 370px;
+  margin-bottom: 0;
+}
+.wooproducts-categories li a{
+  text-decoration: none;
+  color: #333;
+  font-size: 15px;
+  font-weight: 600;
+}
+.wooproducts-categories li a span{
+  margin-right: 1em !important;
+}
+.wooproducts-categories li:hover a{
+  color: #e1261c;
+}
+
+/*----- Banner Section -----*/
+.banner-section .wp-block-button__link{
+  border: 0;
+  padding: 10px 25px;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+/*----- Treding Products -----*/
+.trending-products, .category-banner {
+  margin-right: 50px !important;
+  margin-left: 50px !important;
+}
+.trending-products ul, .wooproducts-categories ul{
+  margin: 0 !important;
+  padding: 0 !important;
+}
+.trending-products li{
+  border: 0;
+  flex: 1 0 23% !important;
+  max-width: 23% !important;
+  padding: 10px !important;
+  margin-right: 22px !important;
+  margin-bottom: 20px !important;
+  background: #efefef;
+  text-align: left;
+}
+.trending-products li:last-child{
+  margin-right: 0 !important;
+}
+.trending-products .wc-block-grid__product-onsale{
+  background: #eee;
+  border-radius: 0;
+  color: #333;
+  border: solid 1px #333;
+  position: absolute;
+  top: -5px;
+  right: 0;
+  line-height: 3;
+  font-size: 13px;
+  padding: 4px 8px;
+  text-transform: capitalize;
+}
+.trending-products li a{
+  text-decoration: none;
+}
+.trending-products li .wc-block-grid__product-title{
+  font-size: 20px;
+  font-weight: bold;
+  color: #000;
+  letter-spacing: 1px;
+}
+.trending-products li ins{
+  font-size: 13px;
+  color: #333;
+  font-weight: 600;
+}
+.trending-products li .wc-block-grid__product-price.price{
+  display: inline-block;
+  width: 85%;
+  margin-bottom: 0;
+}
+.trending-products .wc-block-grid__product-add-to-cart .wp-block-button__link{
+  text-indent: -9999px;
+  background: url(../images/cart.png) no-repeat center;
+  border: 0;
+  padding: 5px 15px !important;
+  margin-top: -25px !important;
+  position: absolute;
+  z-index: 1;
+  right: 20px;
+}

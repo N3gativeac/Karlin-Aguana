@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Service Power Staff App</string>
+    <!-- Employee Main Page-->
+    <string name="accountInfo"> Account Information: \n
+                                Name: \n
+                                Age: \n
+                                Position: \n
+                                Line of work:</string>
+    <string name="scheduleReport"> Schedule report to be done: \n
+                                    Location: \n
+                                    Operation Details: \n</string>
+    <string name="settingButton">Settings</string>
+    <string name="mruButton">Meter Reading Update</string>
+    <string name="rsuButton">Report Status Update</string>
+    <string name="contactsButton">Contacts</string>
+    <!--Metering Update-->
+    <string name="search">Search</string>
+    <string name="consumerInfo1">   Consumers Information: \n
+                                    Name: \n
+                                    Address: \n
+                                    Electric meter number: \n</string>
+    <string name="MeteringButtonUpdate">Update</string>
+
+    <!--Settings-->
+    <string name="UpdateAccountAndStatus">Update Account Status</string>
+    <string name="ChangePasswordAndUsername">Change password and username</string>
+    <string name="PoliciesAndGuidelines">Policies and guidelines </string>
+
+    <!--Report Status Update-->
+    <string name="ListWorkUpdate">  List of work to be update: \n
+                                    Note report : \n
+                                    Status report : \n
+                                    List of material used: \n</string>
+    <string name="ButtonUpdateWork">Update</string>
+    <string name="accountInformation">Account Information:</string>
+</resources>

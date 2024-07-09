@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context=".BulacanSpotJAVA">
+
+        <TextView
+            android:id="@+id/txtHotel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:text="Bulacan Tourist Spots"
+            android:textSize="30sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <RadioGroup
+            android:id="@+id/radioGroup"
+            android:layout_width="352dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txtHotel">
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="107dp"
+                android:layout_height="79dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="15dp"
+                app:srcCompat="@drawable/verdivia" />
+
+            <RadioButton
+                android:id="@+id/Spot1"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:layout_marginLeft="10dp"
+                android:checked="true"
+                android:text="@string/Spot1" />
+
+            <TextView
+                android:id="@+id/txtdeschotel1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="10dp"
+                android:justificationMode="inter_word"
+                android:text="          Verdivia is a hidden beauty. We hiked and crossed rivers for an hour an a half before we were rewarded with its serene splendour. The drizzle was a blessing. It made the hot hike tolerable. Raindrops on our face and cold waters on our feet, oh that was refreshing!
+" />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="107dp"
+                android:layout_height="79dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="15dp"
+                app:srcCompat="@drawable/hike" />
+
+            <RadioButton
+                android:id="@+id/Spot2"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:text="@string/Spot2" />
+
+            <TextView
+                android:id="@+id/txtdeschotel2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="10dp"
+                android:justificationMode="inter_word"
+                android:text="          Mt. Gola is also located at Sitio Madlum in Brgy. Sibul, San Miguel, Bulacan. Most of the tourists or mountaineers who have visited the place opted to try the twin day hike, Mt. Manalmon + Mt. Gola. However, if it’s your first time to this type of outdoor adventure – better try the Mt. Manalmon first then go back in another day to try Mt. Gola." />
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="107dp"
+                android:layout_height="79dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="15dp"
+                app:srcCompat="@drawable/manalmon" />
+
+            <RadioButton
+                android:id="@+id/Spot3"
+                android:layout_width="match_parent"
+                android:layout_height="33dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:text="@string/Spot3" />
+
+            <TextView
+                android:id="@+id/txtdeschotel3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="10dp"
+                android:justificationMode="inter_word"
+                android:text="          Mt. Manalmon (196 + MASL) located at sitio Madlum in Brgy. Sibul, San Miguel, Bulacan is highly recommended, especially for beginners. It belongs to trail class 1-2 with 2/9 level of difficulty, minor climb only. Mt. Manalmon day hike is one of the activities you can enjoy in the historical Biak-na-Bato national park for almost 1-hour hike passing through natural trails, cave, river and wonderful rock formations." />
+
+        </RadioGroup>
+
+        <EditText
+            android:id="@+id/SpotBulacanDays"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:ems="10"
+            android:gravity="center"
+            android:hint="@string/SpotBulacanDays"
+            android:inputType="number"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/radioGroup" />
+
+        <EditText
+            android:id="@+id/SpotBulacanGuests"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:ems="10"
+            android:gravity="center"
+            android:hint="@string/SpotBulacanGuests"
+            android:inputType="numberDecimal"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/SpotBulacanDays" />
+
+        <Button
+            android:id="@+id/btnButacanSpot"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="28dp"
+            android:text="@string/btnButacanSpot"
+            android:textSize="24sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/SpotBulacanGuests" />
+
+
+
+    </android.support.constraint.ConstraintLayout>
+</ScrollView>

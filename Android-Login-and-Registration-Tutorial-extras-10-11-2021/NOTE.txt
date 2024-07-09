@@ -1,0 +1,5 @@
+DEBUGGING: Recommended to have at least a REST client (e.g. POSTMAN) for PHP files
+TIP: If the run logs while debugging in android studio returns these characters: [], please restart XAMMP (both Apache and MySQL).
+
+CHANGELOG:
+1:22 PM 10/11/2021 - Added feedback as a webview (see NEW PHP FILES for details).

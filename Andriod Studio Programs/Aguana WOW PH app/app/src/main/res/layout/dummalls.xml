@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".jdummalls">
+
+        <TextView
+            android:id="@+id/test"
+            android:layout_width="348dp"
+            android:layout_height="wrap_content"
+            android:justificationMode="inter_word"
+            android:text="          CityMall Dumaguete has the basic needs of a shopping center with more than 41 stalls, food booths, and stores. The CityMall has different stores and stalls including: Jollibee, Inasal, Watsons, Galleon Drive, Bong-Bong’s Pasalubong, Uber Park, LBC, BDO, Oppo, Mi Department Store, Red Ribbon, Chowking, SM Appliances, Vintage Vision, Qualfon, PHCCI, Waffle Time, Mister Donut, ACE and much much more! Open from 9 AM-9 PM."
+            android:textSize="10sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.502"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="122dp"
+            android:layout_height="80dp"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="48dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/citymalldumaguete" />
+
+        //------------------------------------------------------------------------------------------------------------------------
+
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginBottom="24dp"
+            android:text="CityMall Dumaguete"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/test"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toEndOf="@+id/imageView2"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="1.0" />
+
+        <TextView
+            android:id="@+id/test1"
+            android:layout_width="349dp"
+            android:layout_height="wrap_content"
+            android:justificationMode="inter_word"
+            android:text="      Currently the only premiere shopping mall in Negros Oriental, Robinsons Place Dumaguete is the first full service shopping mall to set its foot on this City of Gentle People. Considered a major component of the Dumaguete Business Park and IT Plaza in Brgy. Calindagan, this two-level commercial complex holds together over 100 tenants -- mostly key players in the food and beverage, apparel, beauty and wellness, services and retail industries. Adding up to this exciting slate is a refreshing crowd of homegrown brands showcasing the city's special offerings. "
+            android:textSize="10sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.507"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView3" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="122dp"
+            android:layout_height="80dp"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="12dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/test"
+            app:srcCompat="@drawable/robinsonsplacedumaguete" />
+
+        //------------------------------------------------------------------------------------------------------------------------
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginBottom="24dp"
+            android:text="Robinsons Place Dumaguete"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/test1"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toEndOf="@+id/imageView3"
+            app:layout_constraintTop_toBottomOf="@+id/test"
+            app:layout_constraintVertical_bias="1.0" />
+
+        <TextView
+            android:id="@+id/test2"
+            android:layout_width="349dp"
+            android:layout_height="360dp"
+            android:justificationMode="inter_word"
+            android:text="      Since the opening of the mall in November 2009, Robinsons Place Dumaguete has undeniably captured the patronage and loyalty of thousands of Dumaguetenos and Negrenses who have been waiting for a shopping haven. On a high note, Dumaguete City has been identified as the prime destination for intellectual and educational pursuits mainly due to the presence of several local and international schools and universities with student population reaching to an estimated 30,000 people. Robinsons Place Dumaguete serves both the students and the local residents of the community. Aside from its breathtaking al fresco dining area, it boasts of entertainment facilities such as World of Fun and Robinsons Movieworld. "
+            android:textSize="10sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/test1" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

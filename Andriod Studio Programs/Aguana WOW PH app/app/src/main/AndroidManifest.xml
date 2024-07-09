@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.Aguanawowphapp">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Aguana&apos;s WOW PH app"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.CityGuide">
+        <activity android:name="com.example.Aguanawowphapp.test0"></activity>
+        <activity android:name="com.example.Aguanawowphapp.Javamanila" />
+        <activity android:name="com.example.Aguanawowphapp.jmanhotel" />
+        <activity android:name="com.example.Aguanawowphapp.jmanspots" />
+        <activity android:name="com.example.Aguanawowphapp.jmanmalls" />
+        <activity android:name="com.example.Aguanawowphapp.jmanres" />
+        <activity android:name="com.example.Aguanawowphapp.Javabohol" />
+        <activity android:name="com.example.Aguanawowphapp.jbohotel" />
+        <activity android:name="com.example.Aguanawowphapp.jbospots" />
+        <activity android:name="com.example.Aguanawowphapp.jbomalls" />
+        <activity android:name="com.example.Aguanawowphapp.jbores" />
+        <activity android:name="com.example.Aguanawowphapp.Javapalawan" />
+        <activity android:name="com.example.Aguanawowphapp.jpalhotel" />
+        <activity android:name="com.example.Aguanawowphapp.jpalspots" />
+        <activity android:name="com.example.Aguanawowphapp.jpalmalls" />
+        <activity android:name="com.example.Aguanawowphapp.jpalres" />
+        <activity android:name="com.example.Aguanawowphapp.Javabaguio" />
+        <activity android:name="com.example.Aguanawowphapp.jbaghotel" />
+        <activity android:name="com.example.Aguanawowphapp.jbagspots" />
+        <activity android:name="com.example.Aguanawowphapp.jbagmalls" />
+        <activity android:name="com.example.Aguanawowphapp.jbagres" />
+        <activity android:name="com.example.Aguanawowphapp.Javatagaytay" />
+        <activity android:name="com.example.Aguanawowphapp.jtaghotel" />
+        <activity android:name="com.example.Aguanawowphapp.jtagspots" />
+        <activity android:name="com.example.Aguanawowphapp.jtagmalls" />
+        <activity android:name="com.example.Aguanawowphapp.jtagres" />
+        <activity android:name="com.example.Aguanawowphapp.Javadumaguete" />
+        <activity android:name="com.example.Aguanawowphapp.jdumhotel" />
+        <activity android:name="com.example.Aguanawowphapp.jdumspots" />
+        <activity android:name="com.example.Aguanawowphapp.jdummalls" />
+        <activity android:name="com.example.Aguanawowphapp.jdumres" />
+        <activity android:name="com.example.Aguanawowphapp.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

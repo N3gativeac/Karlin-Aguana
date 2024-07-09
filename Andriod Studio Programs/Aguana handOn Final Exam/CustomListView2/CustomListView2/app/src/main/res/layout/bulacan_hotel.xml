@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+<android.support.constraint.ConstraintLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".BulacanHotelJAVA">
+
+    <TextView
+        android:id="@+id/txtHotel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="Bulacan Hotels"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="352dp"
+        android:layout_height="591dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtHotel">
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="107dp"
+            android:layout_height="79dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="15dp"
+            app:srcCompat="@drawable/aerostop" />
+
+        <RadioButton
+            android:id="@+id/HotelID1"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_marginLeft="10dp"
+            android:checked="true"
+            android:text="@string/HotelID1" />
+
+        <TextView
+            android:id="@+id/txtdeschotel1"
+            android:justificationMode="inter_word"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:text="          Set in Plaridel, 5.6 mi from Barasoain Church, Aerostop Hotel and Restaurant offers accommodations with a restaurant, free private parking, a bar and a garden." />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="107dp"
+            android:layout_height="79dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="15dp"
+            app:srcCompat="@drawable/jbs" />
+
+        <RadioButton
+            android:id="@+id/HotelID2"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:text="Jb's Tourist Inn" />
+
+        <TextView
+            android:id="@+id/txtdeschotel2"
+            android:justificationMode="inter_word"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:text="          Jb's Tourist Inn offers air-conditioned rooms in Kay Riapay. Featuring room service, this property also provides guests with a terrace." />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="107dp"
+            android:layout_height="79dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="15dp"
+            app:srcCompat="@drawable/zen" />
+
+        <RadioButton
+            android:id="@+id/HotelID3"
+            android:layout_width="match_parent"
+            android:layout_height="33dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:text="ZEN Rooms Green Ville Bulacan" />
+
+        <TextView
+            android:id="@+id/txtdeschotel3"
+            android:justificationMode="inter_word"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:text="          ZEN Rooms Green Ville Bulacan is offering accommodations in Malolos. With free WiFi, this 1-star hotel offers a 24-hour front desk and room service. Private parking can be arranged at an extra charge" />
+
+    </RadioGroup>
+
+    <EditText
+        android:id="@+id/HotelBulacanDays"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="@string/HotelBulacanDays"
+        android:inputType="number"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/radioGroup" />
+
+    <EditText
+        android:id="@+id/HotelBulacanRoom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="@string/HotelBulacanRoom"
+        android:inputType="numberDecimal"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/HotelBulacanDays" />
+
+    <Button
+        android:id="@+id/btnButacanHotels"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:text="@string/btnButacanHotels"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/HotelBulacanRoom" />
+
+
+
+</android.support.constraint.ConstraintLayout>
+</ScrollView>

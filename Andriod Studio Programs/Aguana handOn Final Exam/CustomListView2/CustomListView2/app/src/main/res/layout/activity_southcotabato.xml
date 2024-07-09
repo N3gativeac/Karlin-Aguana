@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BULACAN">
+
+    <ImageView
+        android:id="@+id/imgSouthCotabato"
+        android:layout_width="153dp"
+        android:layout_height="131dp"
+        android:layout_marginTop="32dp"
+        android:contentDescription="@string/imgSouthCotabato"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.068"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/southcotabato" />
+
+    <TextView
+        android:id="@+id/txtTitle"
+        android:layout_width="177dp"
+        android:layout_height="98dp"
+        android:layout_marginTop="64dp"
+        android:text="@string/txtTitle"
+        android:textSize="40sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.523"
+        app:layout_constraintStart_toEndOf="@+id/imgSouthCotabato"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txtScotabatoD"
+        android:layout_width="375dp"
+        android:layout_height="255dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/txtScotabatoD"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.533"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imgSouthCotabato" />
+
+    <ListView
+        android:id="@+id/listView"
+        android:layout_width="376dp"
+        android:layout_height="199dp"
+        android:layout_marginTop="28dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.485"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtScotabatoD">
+
+    </ListView>
+
+</android.support.constraint.ConstraintLayout>

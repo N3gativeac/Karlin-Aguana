@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Electric Car Financing</string>
+    <string name="hint1">Number of Years</string>
+    <string name="hint2">Car Loan Amount</string>
+    <string name="hint3">Number of Kilometers</string>
+    <string name="btnPayment">Payment</string>
+    <string name="imgDescription">Number of Years Image</string>
+    <string name="txtPayment">Monthly Payment</string>
+    <string name="txtTitle">Relocation Moving Truck Rental App</string>
+    <string name="TenFootTruck">10-Foot Truck (Php10,000)</string>
+    <string name="SeventeenFootTruck">17-Foot Truck (Php17,000)</string>
+    <string name="twentysixFootTruck">26-Foot Truck (Php22,000)</string>
+    <string name="days">Days of rent</string>
+    <string name="kilometrage">Kilometrage</string>
+</resources>

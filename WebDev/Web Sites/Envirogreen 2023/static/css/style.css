@@ -1,0 +1,457 @@
+/* NAV BAR CSS*/
+.nav_css{
+    background-color: #800000;
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    z-index: 1100;
+}
+.nav_p{
+    color:  #ffffff;
+}
+.nav_p:hover{
+    color: #c9c6c6;
+}
+.nav_logo{
+ padding-left: 10px;
+ padding-right: 10px;
+}
+.nav_dropdown{
+    margin-top: 10px;
+    background-color: #861717;
+}
+.nav_pdropdown{
+    color:  #ffffff;
+}
+.nav_pdropdown:hover{
+    color: #861717;
+}
+
+
+
+
+/* Global CSS*/
+#wrapper {
+    z-index: 0;
+}
+#wrapper, .wrapper {
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 0px;
+    margin-right: auto;
+    margin-bottom: 0px;
+    margin-left: auto;
+    position: relative;
+}
+.l-container {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    width: auto;
+    border: none;
+}
+body {
+    overflow-x: hidden; /* Hide horizontal scrollbar */
+  }
+.row1{
+    display:-ms-flexbox;
+    display:flex;
+    -ms-flex-wrap:wrap;
+    
+}
+.row1:after {
+    content: "";
+    display: table;
+    clear: both;
+
+}
+.Global_Center_Text{
+    text-align: center;
+}
+.Global_Right_Text{
+    text-align: right;
+}
+.Globel_Header_Text{
+    font-weight: 900;
+    font-size: 5vw;
+}
+.Global_phar_text{
+    font-size: 1.1vw;
+}
+.Global_H2_phar_text{
+    font-size: 1.5vw;
+    font-weight: bold;
+}
+.Global_phar_textV2{
+    font-size: 18px;
+}
+.Globel_bnt_S
+.position{
+    line-height: 0.3;
+    font-size: 1vw;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+/* Section 1 Body */
+.section1_row_style{
+    padding-top: 50px;
+    width: 100%;
+}
+.Section1_picture_size{
+    width: 100%;
+    height: 100%;
+}
+.Section1_caption{
+
+}
+.H_carousel-inner{
+    position:relative;
+    width:100%;
+    overflow:hidden
+}
+.H_carousel-inner::after{
+    display:block;
+    clear:both;
+    content:""
+}
+.Image_Transition_1{
+    border-radius: 5px;
+    transition: 0.3s;
+    transform: scale(1.03);
+    filter: brightness(50%);
+    cursor: pointer;
+
+}
+.Image_Transition_1:hover {
+    transform: scale(1.20);
+    filter: brightness(100%);
+}
+/* End Section 1 Body */
+
+/* Section 2 Body */
+.section2_row_style{
+    background-color: #ffffff;
+}
+.Section2_leftcolumn{
+    width: 70%;
+    padding-left: 5%;
+    padding-right: 10%;
+}
+.Section2_rightcolumn{
+    width: 30%;
+}
+.mission_vision_p{
+    text-align: center;
+/* 
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+*/
+    -webkit-text-stroke: .5px rgb(255, 255, 255);
+    -webkit-text-fill-color: rgb(0, 0, 0);
+    font-weight: 900;
+    line-height: 1.1;
+}
+.Section2_Logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+/* End Section 2 Body */
+
+/* Section 3 Body */
+.Section3_leftcolumn{
+    background-color: #c9c6c6;
+    float: left;
+    width: 60%;
+}
+.Section3_rightcolumn{
+    padding-right: 5%;
+    padding-left: 5%;
+    width: 40%;
+}
+.section3_row_style{
+    background-color: #c9c6c6;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+.Section3_item1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25%;
+    margin-left: 16%;
+    /*margin-right: 3%;*/
+}
+.Section3_item2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25%;
+    /*margin-left: 3%;
+    margin-right: 3%;*/
+}
+.Section3_item3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25%;
+    /*margin-left: 3%;*/
+    margin-right: 9%;
+}
+.Section3_image{
+    width: auto;
+    height: auto;
+}
+/* End Section 3 Body */
+
+/* Section 4 Body */
+.section4_row_style{
+    background-color: #ffffff;
+    margin-top: 5%;
+    margin-bottom: 60px;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.Section4_video{
+    margin-top: 20px;
+    width: 85vw;
+    height: auto;
+
+}
+.Section4_container{
+    width: 100%;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.Section4_net_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* End Section 4 Body */
+
+/* Section 5 Body */
+.section5_row_style{
+    background-color: #c9c6c6;
+    padding-top: 100px;
+    padding-bottom: 80px;
+}
+.Section5_leftcolumn{
+    padding-left: 150px;
+    padding-right: 40px;
+    padding-top: 5%;
+    padding-bottom: 40px;
+    width: 50%;
+}
+.Section5_rightcolumn{
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 40px;
+    width: 50%;
+}
+.map{
+
+}
+
+.Section5_item1{
+    background-color: #800000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5px;
+
+    -webkit-text-stroke: .5px rgb(0, 0, 0);
+    -webkit-text-fill-color: rgb(255, 255, 255);
+    font-weight: 900;
+    line-height: 1.1;
+
+    padding-top: 10px;
+}
+.Section5_item2{
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5px;
+}
+.Section5_item3{
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Section5_item2_leftcolumn{
+    width: 30%;
+}
+.Section5_item2_rightcolumn{
+    width: 70%;
+}
+.Section5_item3_leftcolumn{
+    width: 30%;
+}
+.Section5_item3_rightcolumn{
+    width: 70%;
+}
+
+/* End Section 5 Body */
+
+/*
+@media (max-width: 10px) {
+    .row, .navbar{   
+      flex-direction: column;
+    }
+  }
+  */
+  /* Section About */
+  .about_body{
+    width: auto;
+    padding-left: 10%;
+    padding-right: 10%;
+    
+  }
+  /* Section 1 About */
+  .Section1About{
+    text-align: center;
+  }
+  /* Section 2 About */
+  .PresidentImage{
+    width: 15vw;
+    height: 20vw;
+  }
+  .Section2About{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-left: 20%;
+    padding-right: 20%;
+  }
+  .Section3AboutLeft{
+    width: 45%;
+    line-height: 0.3;
+    text-align: left;
+    padding-left: 10%;
+  }
+  .Section3AboutRight{
+    width: 55%;
+    line-height: 0.3;
+    text-align: left;
+  }
+  .Section5About{
+    font-weight: bold;
+    text-align: center;
+    padding-left: 30%;
+    padding-right: 30%;
+  }
+  /* End Section 2 About */
+
+  /* End Section About */
+
+
+  /* Section techvocpage */
+  .techvocpage_body{
+    padding-top: 50px;
+  }
+  .TechVoc_Image_Transition_1{
+    border-radius: 5px;
+    transition: 0.3s;
+    transform: scale(1.20);
+    filter: brightness(50%);
+}
+.TechVoc_Image_Transition_1:hover {
+    transform: scale(1.03);
+    filter: brightness(100%);
+}
+.TechVoc_Headaer{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+}
+.Phar_text_TechVoc_Header{
+    font-size: 1.1vw;
+    color:#ffffff;
+    padding-left: 30%;
+    padding-right: 30%;
+}
+.Phar_text_TechVoc_Header:hover {
+    color:#cccccc;
+}
+  /* END Section techvocpage */
+
+
+    /* Section shspage */
+    .shspage_body{
+        padding-top: 50px;
+      }
+      .SHS_Image_Transition_1{
+        border-radius: 5px;
+        transition: 0.3s;
+        transform: scale(1.20);
+        filter: brightness(50%);
+    }
+    .SHS_Image_Transition_1:hover {
+        transform: scale(1.03);
+        filter: brightness(100%);
+    }
+    .SHS_Headaer{
+        position: absolute;
+        top: 50%;
+        width: 100%;
+        text-align: center;
+    }
+    .Phar_text_SHS_Header{
+        font-size: 1.1vw;
+        color:#ffffff;
+        padding-left: 30%;
+        padding-right: 30%;
+    }
+    .Phar_text_SHS_Header:hover {
+        color:#cccccc;
+    }
+      /* END Section shspage */
+
+
+       /* Section collegepage */
+    .collegepage_body{
+        padding-top: 50px;
+      }
+      .College_Image_Transition_1{
+        border-radius: 5px;
+        transition: 0.3s;
+        transform: scale(1.20);
+        filter: brightness(50%);
+    }
+    .College_Image_Transition_1:hover {
+        transform: scale(1.03);
+        filter: brightness(100%);
+    }
+    .College_Headaer{
+        position: absolute;
+        top: 50%;
+        width: 100%;
+        text-align: center;
+    }
+    .Phar_text_College_Header{
+        font-size: 1.1vw;
+        color:#ffffff;
+        padding-left: 30%;
+        padding-right: 30%;
+    }
+    .Phar_text_College_Header:hover {
+        color:#cccccc;
+    }
+      /* END Section shspage */
+
+  @media screen and (max-width: 600px) {
+    .row, .navbar .navbar-brand .container .navbar-expand .section1_row_style{
+      width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+    }
+  }

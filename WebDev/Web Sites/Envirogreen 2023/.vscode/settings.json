@@ -1,0 +1,7 @@
+{
+    "emulator.emulatorPath": " ~/Library/Android/sdk/emulator",
+    "emulator.emulatorPathWindows": "C:\\Users\\IT-MIS\\AppData\\Local\\Android\\Sdk\\emulator",
+    "liveServer.settings.donotVerifyTags": true,
+    "liveServer.settings.NoBrowser": true,
+    "liveServer.settings.useLocalIp": true
+}

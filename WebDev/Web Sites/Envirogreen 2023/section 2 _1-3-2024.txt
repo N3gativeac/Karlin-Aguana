@@ -1,0 +1,65 @@
+/* Section 2 Body */
+.section2_row_style{
+    background-color: #ffffff;
+}
+.Section2_leftcolumn{
+    width: 70%;
+}
+.Section2_rightcolumn{
+    width: 30%;
+}
+.mission_vision_p{
+    text-align: center;
+/* 
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+*/
+    -webkit-text-stroke: .5px rgb(255, 255, 255);
+    -webkit-text-fill-color: rgb(0, 0, 0);
+    font-weight: 900;
+    line-height: 1.1;
+}
+.Section2_Logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:296.833px;
+    height:554.333px;
+}
+/* End Section 2 Body */
+
+
+
+
+
+
+<!-- Section 2 ----------------------------------------------------->
+<div class="container">
+  <div class="section2_row_style">
+    <div class="row">
+        <div class="Section2_leftcolumn">
+                <div class="mission_vision_p">
+                  <div class="Globel_Header_Text">
+                    <p>MISSION</p><!--SCHOOL MISSION-->
+                  </div>
+                  <div class="Global_phar_text">
+                    <p>The SCHOOL shall provide the TRUE education platform.</p>
+                  </div>
+                    <br />
+                  <div class="Globel_Header_Text">
+                    <p>VISION</p><!--SCHOOL VISION-->
+                  </div>
+                  <div class="Global_phar_text">
+                    <p>To be a premier SCHOOL producing LEADERS in a society shaped by TRUE education with CARE.</p>
+                  </div>
+                </div>
+        </div>
+        <div class="Section2_rightcolumn Section2_Logo">
+                    <img src="{{ url_for('static', filename='images/SCHOOL_LOGO_EG.png') }}" alt="SCHOOL_LOGO">
+        </div>
+    </div>
+</div>
+</div>
+<!-- End Section 2 ----------------------------------------------------->

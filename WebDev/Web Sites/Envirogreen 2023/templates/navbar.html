@@ -1,0 +1,51 @@
+<nav class="navbar navbar-expand-lg nav_css">
+  <a class="navbar-brand nav_p nav_logo" href="#"><img src="{{ url_for('static', filename='images/IMAGE_LOGO.png') }}" alt="SCHOOL_LOGO"></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNavDropdown">
+    <ul class="navbar-nav">
+      <li class="nav-item active">
+
+        <a class="nav-link nav_p nav_p" href="{{ url_for('home_page') }}">Home <span class="sr-only">(current)</span></a>
+
+
+      </li>
+      
+<!-- 
+      <li class="nav-item">
+        <a class="nav-link nav_p" href="#">Services</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link nav_p" href="#">Pricing</a>
+      </li>
+------>
+
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle nav_p" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
+          Services
+        </a>
+        <div class="dropdown-menu nav_dropdown">
+          <a class="dropdown-item nav_pdropdown" href="#">Library</a>
+          <a class="dropdown-item nav_pdropdown" href="#">Research</a>
+        </div>
+      </li>
+
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle nav_p" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
+          Admissions
+        </a>
+        <div class="dropdown-menu nav_dropdown ">
+          <a class="dropdown-item nav_pdropdown" href="{{ url_for('techvocpage') }}">Tech-Voc Program</a>
+          <a class="dropdown-item nav_pdropdown" href="{{ url_for('shspage') }}">SHS Programs</a>
+          <a class="dropdown-item nav_pdropdown" href="{{ url_for('collegepage') }}">College Programs</a>
+        </div>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link nav_p" href="{{ url_for('about') }}">About</a>
+      </li>
+
+    </ul>
+  </div>
+</nav>
